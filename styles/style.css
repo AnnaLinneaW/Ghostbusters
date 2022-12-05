@@ -3,50 +3,83 @@
   font-family: ghostbusters;
   src: url(../fonts/GHOSTBUS.TTF);
 }
+@font-face {
+  font-family: ghostbusters;
+  src: url(../fonts/GHOSTBUS.TTF);
+}
 div {
-  color: white;
+  color: #011714;
 }
 
 @layer bootstrap,sass,special-styles;
 @layer sass {
   body {
-    background: rgb(255, 255, 255);
+    margin: 0%;
   }
-  /*Fredrik*/
-  header {
+  body header {
     background: rgb(152, 232, 152);
-    color: red;
     padding: 0px;
     margin: 0px;
   }
-  header a.navbar-brand {
+  body header a.navbar-brand {
     font-family: ghostbusters;
     font-size: 35px;
     margin: auto;
   }
-  header nav {
+  body header nav {
     background: hsl(163deg, 100%, 11%);
     color: white;
     margin: 0px;
   }
-  header nav li {
+  body header nav li {
     background: hsl(163deg, 100%, 11%);
   }
-  header nav li a {
+  body header nav li a {
     color: aliceblue;
     transition: 1.5s ease-in-out;
   }
-  header nav li a:hover {
+  body header nav li a:hover {
     color: aliceblue;
     text-decoration: underline;
     transition: 1.5s ease-in-out;
   }
-  header nav .container-fluid {
+  body header nav .container-fluid {
     background: hsl(163deg, 100%, 11%);
     color: white;
     height: 58px;
   }
-  /*Ingela*/
-  /*Anna*/
+  main .index-div {
+    height: auto;
+    padding: 30px;
+    font-size: 16px;
+  }
+  main .index-img {
+    height: auto;
+    width: 80%;
+  }
+  main .index-heading {
+    font-size: 21px;
+    padding: 30px;
+  }
+  footer .navbar {
+    width: 375px;
+    padding: 0%;
+  }
+  footer .navbar .container-fluid {
+    background-color: #809C94;
+    display: flex;
+  }
+  footer .navbar .container-fluid a {
+    font-size: 16px;
+    font-size: 23px;
+    font-family: inter;
+    text-decoration: underline;
+  }
+  footer .navbar .container-fluid .logo {
+    font-family: ghostbusters;
+    font-size: 20px;
+    text-decoration: none;
+    align-self: flex-end;
+  }
 }
 @layer special-styles {}/*# sourceMappingURL=style.css.map */
