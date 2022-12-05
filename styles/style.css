@@ -3,6 +3,10 @@
   font-family: ghostbusters;
   src: url(../fonts/GHOSTBUS.TTF);
 }
+@font-face {
+  font-family: ghostbusters;
+  src: url(../fonts/GHOSTBUS.TTF);
+}
 div {
   color: #011714;
 }
@@ -10,42 +14,68 @@ div {
 @layer bootstrap,sass,special-styles;
 @layer sass {
   body {
-    background-color: rgb(11, 11, 232);
     margin: 0%;
   }
-  /*Fredrik*/
-  /*Ingela*/
-  .index-div {
+  body header {
+    background: rgb(152, 232, 152);
+    padding: 0px;
+    margin: 0px;
+  }
+  body header a.navbar-brand {
+    font-family: ghostbusters;
+    font-size: 35px;
+    margin: auto;
+  }
+  body header nav {
+    background: hsl(163deg, 100%, 11%);
+    color: white;
+    margin: 0px;
+  }
+  body header nav li {
+    background: hsl(163deg, 100%, 11%);
+  }
+  body header nav li a {
+    color: aliceblue;
+    transition: 1.5s ease-in-out;
+  }
+  body header nav li a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+    transition: 1.5s ease-in-out;
+  }
+  body header nav .container-fluid {
+    background: hsl(163deg, 100%, 11%);
+    color: white;
+    height: 58px;
+  }
+  main .index-div {
     height: auto;
-    border: 1px solid black;
     padding: 30px;
     font-size: 16px;
   }
-  .index-img {
+  main .index-img {
     height: auto;
     width: 80%;
   }
-  .index-heading {
+  main .index-heading {
     font-size: 21px;
     padding: 30px;
   }
-  /*Anna*/
-  .navbar {
-    /*width:375px;*/
+  footer .navbar {
+    width: 375px;
     padding: 0%;
   }
-  .navbar .container-fluid {
+  footer .navbar .container-fluid {
     background-color: #809C94;
     display: flex;
-    justify-content: space-between; /*desktop*/
   }
-  .navbar .container-fluid a {
-    /*font-size: 16px;*/
+  footer .navbar .container-fluid a {
+    font-size: 16px;
     font-size: 23px;
     font-family: inter;
     text-decoration: underline;
   }
-  .navbar .container-fluid .logo {
+  footer .navbar .container-fluid .logo {
     font-family: ghostbusters;
     font-size: 20px;
     text-decoration: none;
