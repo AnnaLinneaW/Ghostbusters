@@ -49,24 +49,21 @@
     padding: 30px;
   }
   footer .navbar {
-    width: 375px;
     padding: 0%;
   }
   footer .navbar .container-fluid {
-    background-color: hsl(161deg, 12%, 56%);
-    display: flex;
+    background-color: #809C94;
   }
   footer .navbar .container-fluid a {
     font-size: 16px;
-    font-size: 23px;
-    font-family: inter;
+    font-family: helvetica;
     text-decoration: underline;
   }
   footer .navbar .container-fluid .logo {
     font-family: ghostbusters;
+    color: black;
     font-size: 20px;
     text-decoration: none;
-    align-self: flex-end;
   }
   * {
     font-size: 18px;
