@@ -64,8 +64,6 @@
     color: black;
     font-size: 20px;
     text-decoration: none;
-<<<<<<< HEAD
-=======
   }
   @media (width <= 800px) {
     h1,
@@ -75,7 +73,21 @@ h2 {
     body {
       background: palevioletred;
     }
->>>>>>> fdb4b80e7fcfdf1407e5591e938b9b31ce952dd4
+  }
+  main div {
+    font-family: Helvetica, sans-serif;
+  }
+  .rubrik {
+    font-family: ghostbusters;
+  }
+  .input-group span {
+    background-color: hsl(161deg, 12%, 56%);
+  }
+  textarea {
+    height: 100px;
+  }
+  .btn-primary {
+    background-color: hsl(163deg, 100%, 11%);
   }
   * {
     font-size: 18px;
