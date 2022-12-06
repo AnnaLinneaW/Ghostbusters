@@ -1,0 +1,31 @@
+header {
+    background: rgb(152, 232, 152);
+
+    a.navbar-brand {
+        font-family: ghostbusters;
+        font-size: 35px;
+        margin: auto;
+    }
+    nav {
+        background: $greenDark;
+        color: white;
+        margin: 0px;
+        li {
+            background: $greenDark;
+            a {
+                color: aliceblue;
+                transition: 1.5s ease-in-out;
+            }
+            a:hover {
+                color: aliceblue;
+                text-decoration: underline;
+                transition: 1.5s ease-in-out;
+            }
+        }
+        .container-fluid {
+            background: $greenDark;
+            color: white;
+            height: 58px;
+        }
+    }
+}

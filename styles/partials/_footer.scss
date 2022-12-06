@@ -1,0 +1,53 @@
+footer {
+    // $breakpoint-desktop: 994px;
+
+    // @media $breakpoint-desktop {
+    //     .navbar {
+    //         padding: 0%;
+
+    //         .container-fluid {
+    //             background-color: #809C94;
+    //             display: flex;
+    //             justify-content: space-between;
+
+    //             /*desktop*/
+    //             a {
+    //                 font-size: 23px;
+    //                 font-family: inter;
+    //                 text-decoration: underline;
+    //             }
+
+    //             .logo {
+    //                 font-family: ghostbusters;
+    //                 font-size: 20px;
+    //                 text-decoration: none;
+    //                 align-self: flex-end;
+    //             }
+    //         }
+    //     }
+
+    // }
+
+    .navbar {
+        width: 375px;
+        padding: 0%;
+
+        .container-fluid {
+            background-color: $greenOlive ;
+            display: flex;
+            a {
+                font-size: 16px;
+                font-size: 23px;
+                font-family: inter;
+                text-decoration: underline;
+            }
+
+            .logo {
+                font-family: ghostbusters;
+                font-size: 20px;
+                text-decoration: none;
+                align-self: flex-end;
+            }
+        }
+    }
+}
