@@ -1,0 +1,20 @@
+main{
+    div{
+        font-family: $myFont;
+    }
+}
+.rubrik{
+    font-family: ghostbusters;
+}
+.input-group{
+    span{
+        background-color: $greenOlive;
+    }
+}
+textarea{
+    height: 100px;
+}
+
+.btn-primary{
+    background-color: $greenDark;
+}
