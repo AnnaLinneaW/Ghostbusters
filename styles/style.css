@@ -48,6 +48,9 @@
     font-size: 21px;
     padding: 30px;
   }
+  main .CTA-picture {
+    font-size: small;
+  }
   footer .navbar {
     padding: 0%;
   }
@@ -73,6 +76,22 @@ h2 {
     body {
       background: palevioletred;
     }
+  }
+  body {
+    background-color: white;
+  }
+  .product {
+    width: auto;
+    padding: 10px;
+  }
+  .col-4 {
+    margin: 20px;
+  }
+  .product-top {
+    width: 50%;
+  }
+  .link-to-form {
+    color: gray;
   }
   main div {
     font-family: Helvetica, sans-serif;
