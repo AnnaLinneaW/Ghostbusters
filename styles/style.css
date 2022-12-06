@@ -93,6 +93,21 @@ h2 {
   .link-to-form {
     color: gray;
   }
+  main div {
+    font-family: Helvetica, sans-serif;
+  }
+  .rubrik {
+    font-family: ghostbusters;
+  }
+  .input-group span {
+    background-color: hsl(161deg, 12%, 56%);
+  }
+  textarea {
+    height: 100px;
+  }
+  .btn-primary {
+    background-color: hsl(163deg, 100%, 11%);
+  }
   * {
     font-size: 18px;
   }
