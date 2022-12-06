@@ -3,47 +3,34 @@
   font-family: ghostbusters;
   src: url(../fonts/GHOSTBUS.TTF);
 }
-@font-face {
-  font-family: ghostbusters;
-  src: url(../fonts/GHOSTBUS.TTF);
-}
-div {
-  color: #011714;
-}
-
-@layer bootstrap,sass,special-styles;
+@layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
-  body {
-    margin: 0%;
-  }
-  body header {
+  header {
     background: rgb(152, 232, 152);
-    padding: 0px;
-    margin: 0px;
   }
-  body header a.navbar-brand {
+  header a.navbar-brand {
     font-family: ghostbusters;
     font-size: 35px;
     margin: auto;
   }
-  body header nav {
+  header nav {
     background: hsl(163deg, 100%, 11%);
     color: white;
     margin: 0px;
   }
-  body header nav li {
+  header nav li {
     background: hsl(163deg, 100%, 11%);
   }
-  body header nav li a {
+  header nav li a {
     color: aliceblue;
     transition: 1.5s ease-in-out;
   }
-  body header nav li a:hover {
+  header nav li a:hover {
     color: aliceblue;
     text-decoration: underline;
     transition: 1.5s ease-in-out;
   }
-  body header nav .container-fluid {
+  header nav .container-fluid {
     background: hsl(163deg, 100%, 11%);
     color: white;
     height: 58px;
@@ -66,7 +53,7 @@ div {
     padding: 0%;
   }
   footer .navbar .container-fluid {
-    background-color: #809C94;
+    background-color: hsl(161deg, 12%, 56%);
     display: flex;
   }
   footer .navbar .container-fluid a {
@@ -81,5 +68,13 @@ div {
     text-decoration: none;
     align-self: flex-end;
   }
+  * {
+    font-size: 18px;
+  }
+  * h1 {
+    font-size: 23px;
+  }
 }
-@layer special-styles {}/*# sourceMappingURL=style.css.map */
+@layer fredriks {}
+@layer annas {}
+@layer ingelas {}/*# sourceMappingURL=style.css.map */
