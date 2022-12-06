@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark margin-top-0 border">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">GhOstbusters</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN  -->
+    <main>
+        <div class="row">
+            <div class="index-div col-md-6">
+                <h2 class="index-heading text-sm-start">
+                    Firehouse, Hook & Ladder Company 8 is a New York City Fire Department (FDNY) fire station, located
+                    at 14 North Moore Street at its intersection with Varick Street in the Tribeca neighborhood of
+                    Manhattan, New York City
+                </h2>
+                <img class="index-img img-fluid rounded mx-auto d-block" src="/images/ghostbust.contact.jpeg">
+            </div>
+            <div class="index-div col-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-6 rubrik">
+                        Who you gonna call?
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            555-2368
+                        </div>
+                        <div class="col-6">
+                            Ghostbusters@gmail.com
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                New York Public Library <br>
+                                5th Avenue and East 42nd St <br>
+                                Manhattan
+                            </div>
+                            <div class="container">
+                                <label for="basic-url" class="form-label">Contact us</label>
+                                <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">@</span>
+                                    <input type="text" class="form-control" placeholder="email" aria-label="email"
+                                        aria-describedby="addon-wrapping">
+                                </div>
+
+                                <select class="form-select" aria-label="select contact reason">
+                                    <option selected>Contact reason</option>
+                                    <option value="1">Ghosts</option>
+                                    <option value="2">Costs</option>
+                                    <option value="3">Party show up</option>
+                                    <option value="4">Other</option>
+                                </select>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2">
+                                </textarea>
+                                    <label for="floatingTextarea2">message</label>
+                                </div>
+                                <button type="button" class="btn btn-primary">Send!</button>
+                            </div>
+                        </div>
+                    </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <nav class="navbar bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-8"><a class="navbar-brand" href="../index.html">Home</a></div>
+                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
+                    <div class="col-md-8"><a class="navbar-brand" href="/pages/products.html">Products</a></div>
+                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/refrences.html">References</a>
+                    </div>
+                    <div class="col-md-8"><a class="navbar-brand" href="/pages/contact.html">Contact</div>
+                </div>
+                <a class="logo" href="../index.html">GHOSTBUSTERS <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                        <path
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+                    </svg></a>
+            </div>
+        </nav>
+    </footer>
 </body>
+</body>
+
 </html>
