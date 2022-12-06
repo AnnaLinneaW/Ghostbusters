@@ -48,6 +48,9 @@
     font-size: 21px;
     padding: 30px;
   }
+  main .CTA-picture {
+    font-size: small;
+  }
   footer .navbar {
     padding: 0%;
   }
@@ -64,8 +67,6 @@
     color: black;
     font-size: 20px;
     text-decoration: none;
-<<<<<<< HEAD
-=======
   }
   @media (width <= 800px) {
     h1,
@@ -75,7 +76,22 @@ h2 {
     body {
       background: palevioletred;
     }
->>>>>>> fdb4b80e7fcfdf1407e5591e938b9b31ce952dd4
+  }
+  body {
+    background-color: white;
+  }
+  .product {
+    width: auto;
+    padding: 10px;
+  }
+  .col-4 {
+    margin: 20px;
+  }
+  .product-top {
+    width: 50%;
+  }
+  .link-to-form {
+    color: gray;
   }
   * {
     font-size: 18px;
