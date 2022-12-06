@@ -74,6 +74,26 @@ h2 {
       background: palevioletred;
     }
   }
+  body form button {
+    background: hsl(161deg, 12%, 56%);
+    border: none;
+  }
+  body button:hover {
+    background: hsl(163deg, 100%, 11%);
+    border: none;
+  }
+  body .bgreen {
+    background: hsl(161deg, 12%, 56%);
+  }
+  body .card-header {
+    background: hsl(161deg, 12%, 76%);
+  }
+  body .ghostGrade img {
+    width: 18px;
+  }
+  body .ghostGrade .badGrade {
+    opacity: 50%;
+  }
   * {
     font-size: 18px;
   }

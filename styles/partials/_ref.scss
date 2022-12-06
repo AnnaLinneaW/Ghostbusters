@@ -1,0 +1,27 @@
+body {
+    form {
+        button {
+        background: $greenOlive;
+        border: none;
+        }
+    }
+    button:hover {
+        background: $greenDark;
+        border: none;
+    }
+    .bgreen {
+        background: $greenOlive;
+    }
+    .card-header {
+        background: $greenOliveLight;
+    }
+    .ghostGrade {
+            img {
+                width: 18px;
+            }
+            .badGrade {
+                opacity: 50%;
+            }
+        }
+    
+}
