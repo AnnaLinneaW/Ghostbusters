@@ -5,7 +5,7 @@ main.services {
     }
 
     .card-body {
-        background-color: #809C94;
+        background-color: $greenOliveLight;
         border-radius: 4px;
         height: 250px;
     }
@@ -33,6 +33,7 @@ main.services {
     } 
 
     .product {
-        background-color: #809C94;
+        background-color: $greenOliveLight;
+        border-color: darkgrey;
     }
 }
