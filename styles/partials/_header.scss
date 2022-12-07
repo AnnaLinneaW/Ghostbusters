@@ -14,12 +14,10 @@ header {
             background: $greenDark;
             a {
                 color: aliceblue;
-                transition: 1.5s ease-in-out;
             }
             a:hover {
                 color: aliceblue;
                 text-decoration: underline;
-                transition: 1.5s ease-in-out;
             }
         }
         .container-fluid {
