@@ -119,6 +119,23 @@ h2 {
   .rubrik {
     font-family: ghostbusters;
   }
+  .form {
+    border-style: none;
+    background-color: hsl(161deg, 12%, 76%);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px hsl(161deg, 12%, 56%);
+    border-spacing: 50px;
+    width: 70%;
+    padding: 10px;
+  }
+  .form-control:focus {
+    border-color: hsl(161deg, 12%, 56%);
+    box-shadow: inset 0 1px 1px hsl(161deg, 12%, 56%);
+  }
+  select:focus {
+    border-color: hsl(161deg, 12%, 56%);
+    box-shadow: inset 0 1px 1px hsl(161deg, 12%, 56%);
+  }
   .input-group span {
     background-color: hsl(161deg, 12%, 56%);
   }
@@ -127,6 +144,7 @@ h2 {
   }
   .btn-primary {
     background-color: hsl(163deg, 100%, 11%);
+    border: hsl(163deg, 100%, 11%);
   }
   * {
     font-size: 18px;

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
@@ -22,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/aboutUs.html">About us</a>
@@ -34,10 +37,9 @@
                             <a class="nav-link" href="/pages/references.html">References</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contact</a>
+                            <a class="nav-link" href="/pages/contact.html">Contact</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -45,7 +47,7 @@
     <!-- MAIN  -->
     <main>
         <div class="row">
-            <div class="index-div col-md-6">
+            <div class="index-div col-sm-6">
                 <h2 class="index-heading text-sm-start">
                     Firehouse, Hook & Ladder Company 8 is a New York City Fire Department (FDNY) fire station, located
                     at 14 North Moore Street at its intersection with Varick Street in the Tribeca neighborhood of
@@ -53,61 +55,68 @@
                 </h2>
                 <img class="index-img img-fluid rounded mx-auto d-block" src="/images/ghostbust.contact.jpeg">
             </div>
-            <div class="index-div col-md-6">
+            <div class="index-div col-sm-6">
+                <img class="index-img img-fluid rounded mx-auto d-block" src="/images/ghostbust.office.jpeg">
                 <div class="row justify-content-center">
-                    <div class="col-6 rubrik">
+                    <div class="col-9 col-lg-6 rubrik ml-2 mt-2">
                         Who you gonna call?
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-6">
+                    <div class="row justify-content-center g-1">
+                        <div class="col-8">
+                            <i class="fa-solid fa-phone"></i>
                             555-2368
                         </div>
-                        <div class="col-6">
+                        <div class="col-8">
+                            <i class="fa-solid fa-at"></i>
                             Ghostbusters@gmail.com
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-6">
-                                New York Public Library <br>
-                                5th Avenue and East 42nd St <br>
-                                Manhattan
-                            </div>
-                            <div class="container">
-                                <label for="basic-url" class="form-label">Contact us</label>
-                                <div class="input-group flex-nowrap">
-                                    <span class="input-group-text" id="addon-wrapping">@</span>
-                                    <input type="text" class="form-control" placeholder="email" aria-label="email"
-                                        aria-describedby="addon-wrapping">
-                                </div>
-
-                                <select class="form-select" aria-label="select contact reason">
-                                    <option selected>Contact reason</option>
-                                    <option value="1">Ghosts</option>
-                                    <option value="2">Costs</option>
-                                    <option value="3">Party show up</option>
-                                    <option value="4">Other</option>
-                                </select>
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                        id="floatingTextarea2">
-                                </textarea>
-                                    <label for="floatingTextarea2">message</label>
-                                </div>
-                                <button type="button" class="btn btn-primary">Send!</button>
-                            </div>
+                        <div class="col-8">
+                            <i class="fa-solid fa-location-dot"></i>
+                            New York Public Library <br>
+                            5th Avenue and East 42nd St <br>
+                            Manhattan
                         </div>
                     </div>
+                </div>
+            </div>
     </main>
+    <div class="index-div col-sm-12 justify-content-center p-3">
+        <div class="container form">
+            <label for="basic-url" class="form-label">Contact us</label>
+            <div class="input-group flex-nowrap pb-2">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="email" aria-label="email"
+                    aria-describedby="addon-wrapping">
+            </div>
+
+            <select class="form-select" aria-label="select contact reason">
+                <option selected>Contact reason</option>
+                <option value="1">Ghosts</option>
+                <option value="2">Costs</option>
+                <option value="3">Party show up</option>
+                <option value="4">Other</option>
+            </select>
+            
+            <div class="form-floating pt-2 pb-2">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2">
+                </textarea>
+                <label for="floatingTextarea2">message</label>
+            </div>
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-primary">Send!</button>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER -->
     <footer>
         <nav class="navbar bottom">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-md-8"><a class="navbar-brand" href="../index.html">Home</a></div>
-                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
-                    <div class="col-md-8"><a class="navbar-brand" href="/pages/products.html">Products</a></div>
-                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a>
-                    </div>
-                    <div class="col-md-8"><a class="navbar-brand" href="/pages/contact.html">Contact</div>
+                    <div class="col-8 col-lg-4"><a class="navbar-brand" href="../index.html">Home</a></div>
+                    <div class="col-8 col-lg-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
+                    <div class="col-8 col-lg-4"><a class="navbar-brand" href="/pages/products.html">Products</a></div>
+                    <div class="col-8 col-lg-4"><a class="navbar-brand" href="/pages/references.html">References</a></div>
+                    <div class="col-8 col-lg-4"><a class="navbar-brand" href="/pages/contact.html">Contact</div>   
                 </div>
                 <a class="logo" href="../index.html">GHOSTBUSTERS <svg xmlns="http://www.w3.org/2000/svg" width="16"
                         height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
