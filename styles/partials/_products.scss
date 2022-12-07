@@ -1,35 +1,38 @@
-body {
-    background-color: white;
-}
+main.services {
 
-.card-body {
-    background-color: #809C94;
-    border-radius: 4px;
-    height: 250px;
-}
-
-.top-products {
-    a {
-        color: black;
+    body {
+        background-color: white;
     }
-    a:hover {
-        color: lightgray;
+
+    .card-body {
+        background-color: #809C94;
+        border-radius: 4px;
+        height: 250px;
     }
-}
 
-.top-product {
-    width: 90%;
-    height: 60%;
-}
-
-#link-to-form {
-    color: gray;
-
-    :hover {
-        color: lightgray;
+    .top-products {
+        a {
+            color: black;
+        }
+        a:hover {
+            color: lightgray;
+        }
     }
-} 
 
-.product {
-    background-color: #809C94;
+    .top-product {
+        width: 90%;
+        height: 70%;
+    }
+
+    #link-to-form {
+        color: gray;
+
+        :hover {
+            color: lightgray;
+        }
+    } 
+
+    .product {
+        background-color: #809C94;
+    }
 }

@@ -97,31 +97,31 @@ h2 {
   body .ghostGrade .badGrade {
     opacity: 50%;
   }
-  body {
+  main.services body {
     background-color: white;
   }
-  .card-body {
+  main.services .card-body {
     background-color: #809C94;
     border-radius: 4px;
     height: 250px;
   }
-  .top-products a {
+  main.services .top-products a {
     color: black;
   }
-  .top-products a:hover {
+  main.services .top-products a:hover {
     color: lightgray;
   }
-  .top-product {
+  main.services .top-product {
     width: 90%;
-    height: 60%;
+    height: 70%;
   }
-  #link-to-form {
+  main.services #link-to-form {
     color: gray;
   }
-  #link-to-form :hover {
+  main.services #link-to-form :hover {
     color: lightgray;
   }
-  .product {
+  main.services .product {
     background-color: #809C94;
   }
   main div {
