@@ -1,3 +1,4 @@
+
 main{
     div{
         font-family: $myFont;
@@ -6,6 +7,25 @@ main{
 .rubrik{
     font-family: ghostbusters;
 }
+.form{
+    border-style: none;
+    background-color:$greenOliveLight;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px $greenOlive;
+    border-spacing: 50px;
+    width:70%;
+    padding: 10px;
+}
+.form-control:focus {
+    border-color: $greenOlive;
+    box-shadow: inset 0 1px 1px $greenOlive;
+}
+
+select:focus{
+    border-color: $greenOlive;
+    box-shadow: inset 0 1px 1px $greenOlive;
+  }
+
 .input-group{
     span{
         background-color: $greenOlive;
@@ -17,4 +37,5 @@ textarea{
 
 .btn-primary{
     background-color: $greenDark;
+    border: $greenDark;
 }
