@@ -2,20 +2,34 @@ body {
     background-color: white;
 }
 
-.product {
-    width: auto;
-    padding: 10px;
+.card-body {
+    background-color: #809C94;
+    border-radius: 4px;
+    height: 250px;
 }
 
-.col-4 {
-    margin: 20px;
-    
+.top-products {
+    a {
+        color: black;
+    }
+    a:hover {
+        color: lightgray;
+    }
 }
 
-.product-top {
-    width: 50%;
+.top-product {
+    width: 90%;
+    height: 60%;
 }
 
-.link-to-form {
+#link-to-form {
     color: gray;
+
+    :hover {
+        color: lightgray;
+    }
+} 
+
+.product {
+    background-color: #809C94;
 }
