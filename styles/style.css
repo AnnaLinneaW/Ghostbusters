@@ -100,18 +100,29 @@ h2 {
   body {
     background-color: white;
   }
-  .product {
-    width: auto;
-    padding: 10px;
+  .card-body {
+    background-color: #809C94;
+    border-radius: 4px;
+    height: 250px;
   }
-  .col-4 {
-    margin: 20px;
+  .top-products a {
+    color: black;
   }
-  .product-top {
-    width: 50%;
+  .top-products a:hover {
+    color: lightgray;
   }
-  .link-to-form {
+  .top-product {
+    width: 90%;
+    height: 60%;
+  }
+  #link-to-form {
     color: gray;
+  }
+  #link-to-form :hover {
+    color: lightgray;
+  }
+  .product {
+    background-color: #809C94;
   }
   main div {
     font-family: Helvetica, sans-serif;
