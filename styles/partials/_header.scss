@@ -10,20 +10,29 @@ header {
         background: $greenDark;
         color: white;
         margin: 0px;
-        li {
-            background: $greenDark;
-            a {
-                color: aliceblue;
-            }
-            a:hover {
-                color: aliceblue;
-                text-decoration: underline;
+        .navbar-collapse {
+                width: 100vw;
+                ul {
+                    width: 100%;
+                    li {
+                        width: 100%;
+                        text-align: center;
+                        background: $greenOlive;
+                    }   
+                    a {
+                        color: aliceblue;
+                    }               
+                    a:hover {
+                        color: aliceblue;
+                        text-decoration: underline;
+                    }
+                }
             }
         }
         .container-fluid {
-            background: $greenDark;
-            color: white;
-            height: 58px;
+            background: $greenDark;         
+            z-index: 2;
+            
         }
-    }
 }
+

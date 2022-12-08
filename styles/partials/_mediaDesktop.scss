@@ -1,10 +1,11 @@
-@media (width <= 800px) {
-    h1,
-    h2 {
-        color: black;
-    }
-
-    // body {
-    //     background: palevioletred;
-    // }
+@media (width >= 992px) {
+    header {
+            nav {
+                .container-fluid {
+                    flex-direction: column;
+                    background: $greenDark;   
+                }
+                
+            }
+        }
 }
