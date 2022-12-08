@@ -97,6 +97,9 @@ h2 {
   main.services body {
     background-color: white;
   }
+  main.services h1 {
+    font-family: ghostbusters;
+  }
   main.services .card-body {
     background-color: hsl(161deg, 12%, 76%);
     border-radius: 4px;
@@ -154,6 +157,9 @@ h2 {
   .btn-primary {
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
+  }
+  main.about-us h1 {
+    font-family: ghostbusters;
   }
   * {
     font-size: 18px;
