@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
@@ -39,13 +41,14 @@
                             <a class="nav-link" href="/pages/contact.html">Contact</a>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
     </header>
-<!-- MAIN  -->
-    <main>
+    <!-- MAIN  -->
+    <main class="main-index">
+        <img src="/images/Index-pic.jpeg" alt="Picture of the Ghostbusters team" class="index-img-top">
         <h1 class="text-center mt-4">Welcome to Ghostbusters</h1>
         <div class="row">
             <div class="index-div col-12 col-md-6 col-lg-6">
@@ -53,44 +56,50 @@
                     Ghostbusters is a paranormal investigation and elimination service. With our high-tech
                     nuclear-powered equipment we capture and contain ghosts
                 </h2>
-                <a href="/pages/products.html">
-                <img class="index-img img-fluid mt-4 rounded mx-auto d-block"
-                    src="https://d3avoj45mekucs.cloudfront.net/rojakdaily/media/1nichoras/ghostbusters%20world/ghostbusters.jpg?ext=.jpg"
-                    alt="The Ghostbusters team capturing a paranormal creature">
+                <a href="/pages/products.html" id="CTA-link">
+                    <img class="index-img img-fluid mt-4 rounded mx-auto d-block"
+                        src="https://d3avoj45mekucs.cloudfront.net/rojakdaily/media/1nichoras/ghostbusters%20world/ghostbusters.jpg?ext=.jpg"
+                        alt="The Ghostbusters team capturing a paranormal creature">
                 </a>
-                <p class="text-center CTA-picture"> Click on the picture to get straight to our services</p>
+                <p class="text-center CTA-text"> Click on the picture to get straight to our services</p>
             </div>
             <div class="index-div col-12 col-md-6 col-lg-6">
                 <div class="text-center">
-                    <label for="subscription" class="mt-3">Fill out your email subscribe up to our newsletter:</label>
-                    <br/><br/><input type="email" id="subscription">
-                    <br/><br/><button type="button" class="btn btn-success">Subscribe</button><br/><br/>
+                    <label for="email" class="mt-3">Fill out your email to subscribe to our newsletter:</label>
+                    <br /><br /><input type="email" id="email">
+                    <br /><br /><button type="button" class="btn btn-success">Subscribe</button><br /><br />
                 </div>
-                <div class="index-div">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi minus, praesentium repellat
-                    harum, itaque vero minima tempora dolor veritatis commodi perferendis deserunt corrupti nulla fugiat
-                    earum, sit repudiandae. Adipisci?
-                </div>
+                <p class="index-div">
+                    By subcribing to our newsletter you will get monthly updates on what the team has been up to and the
+                    most interesting captures.
+                    <br /><br />
+                    The Ghostbusters team has been aroun for so long and bees so successful that there have been
+                    multiple movies made based on our squad! In total there have been five movies and if you are curious
+                    you can follow this link.
+                </p>
             </div>
         </div>
     </main>
-<!-- FOOTER -->
-<footer>
-    <nav class="navbar bottom">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-8"><a class="navbar-brand" href="index.html">Home</a></div>
-                <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
-                <div class="col-md-8"><a class="navbar-brand" href="/pages/products.html">Services</a></div>
-                <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a></div>
-                <div class="col-md-8"><a class="navbar-brand" href="/pages/contact.html">Contact</div>
+    <!-- FOOTER -->
+    <footer>
+        <nav class="navbar bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-8"><a class="navbar-brand" href="index.html">Home</a></div>
+                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
+                    <div class="col-md-8"><a class="navbar-brand" href="/pages/products.html">Services</a></div>
+                    <div class="col-6 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a>
+                    </div>
+                    <div class="col-md-8"><a class="navbar-brand" href="/pages/contact.html">Contact</div>
                 </div>
-                <a class="logo" href="index.html">GHOSTBUSTERS <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
-                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                <a class="logo" href="index.html">GHOSTBUSTERS <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                        <path
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
                     </svg></a>
             </div>
-      </nav>
-</footer>
+        </nav>
+    </footer>
 </body>
 
 </html>

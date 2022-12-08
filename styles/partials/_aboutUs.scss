@@ -1,15 +1,22 @@
-main.about-us {
-
-    
+main.main-about-us {
 
     h1 {
         font-family: ghostbusters;
     }
 
-
-
-
-
-
-
+    img {
+        width: 70%;
+    }
+    .all-employees {
+        gap: 20px;
+    }
 }
+
+aside.history-aside {
+        background-color: $greenOliveLight;
+    
+}
+
+
+
+

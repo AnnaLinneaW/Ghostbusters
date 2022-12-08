@@ -1,9 +1,5 @@
 main.services {
 
-    body {
-        background-color: white;
-    }
-
     h1 {
         font-family: ghostbusters;
     }
@@ -11,7 +7,7 @@ main.services {
     .card-body {
         background-color: $greenOliveLight;
         border-radius: 4px;
-        height: 250px;
+        height: auto;
     }
 
     .top-products {
@@ -19,13 +15,13 @@ main.services {
             color: black;
         }
         a:hover {
-            color: lightgray;
+            color: gray;
+            opacity: 80%;
         }
     }
 
     .top-product {
         width: 90%;
-        height: 70%;
     }
 
     #link-to-form {
@@ -40,4 +36,13 @@ main.services {
         background-color: $greenOliveLight;
         border-color: darkgrey;
     }
+
+    .main-product-picture {
+        width: 60%;
+        height: auto;
+    }
+
+
+
+
 }
