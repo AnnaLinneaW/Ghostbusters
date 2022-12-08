@@ -40,21 +40,35 @@
     background: hsl(163deg, 100%, 11%);
     z-index: 2;
   }
-  main .index-div {
+  main.main-index .index-img-top {
+    width: 100%;
+    height: auto;
+  }
+  main.main-index .index-div {
     height: auto;
     padding: 30px;
     font-size: 16px;
   }
-  main .index-img {
+  main.main-index .index-img {
     height: auto;
     width: 80%;
   }
-  main .index-heading {
+  main.main-index .index-img:hover {
+    opacity: 80%;
+  }
+  main.main-index .index-heading {
     font-size: 21px;
     padding: 30px;
   }
-  main .CTA-picture {
+  main.main-index .CTA-text {
     font-size: small;
+  }
+  main.main-index .CTA-text :hover {
+    color: gray;
+  }
+  main.main-index .CTA-link {
+    text-decoration: none;
+    color: gray;
   }
   footer .navbar {
     padding: 0%;
@@ -101,26 +115,23 @@
   body .ghostGrade .badGrade {
     opacity: 50%;
   }
-  main.services body {
-    background-color: white;
-  }
   main.services h1 {
     font-family: ghostbusters;
   }
   main.services .card-body {
     background-color: hsl(161deg, 12%, 76%);
     border-radius: 4px;
-    height: 250px;
+    height: auto;
   }
   main.services .top-products a {
     color: black;
   }
   main.services .top-products a:hover {
-    color: lightgray;
+    color: gray;
+    opacity: 80%;
   }
   main.services .top-product {
     width: 90%;
-    height: 70%;
   }
   main.services #link-to-form {
     color: gray;
@@ -131,6 +142,10 @@
   main.services .product {
     background-color: hsl(161deg, 12%, 76%);
     border-color: darkgrey;
+  }
+  main.services .main-product-picture {
+    width: 60%;
+    height: auto;
   }
   main div {
     font-family: Helvetica, sans-serif;
@@ -168,8 +183,17 @@
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
   }
-  main.about-us h1 {
+  main.main-about-us h1 {
     font-family: ghostbusters;
+  }
+  main.main-about-us img {
+    width: 70%;
+  }
+  main.main-about-us .all-employees {
+    gap: 20px;
+  }
+  aside.history-aside {
+    background-color: hsl(161deg, 12%, 76%);
   }
   * {
     font-size: 18px;
