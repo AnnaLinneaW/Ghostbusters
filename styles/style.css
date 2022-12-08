@@ -71,9 +71,6 @@
 h2 {
       color: black;
     }
-    body {
-      background: palevioletred;
-    }
   }
   body .opinion {
     background: hsl(161deg, 12%, 76%);
@@ -101,7 +98,7 @@ h2 {
     background-color: white;
   }
   main.services .card-body {
-    background-color: #809C94;
+    background-color: hsl(161deg, 12%, 76%);
     border-radius: 4px;
     height: 250px;
   }
@@ -122,7 +119,8 @@ h2 {
     color: lightgray;
   }
   main.services .product {
-    background-color: #809C94;
+    background-color: hsl(161deg, 12%, 76%);
+    border-color: darkgrey;
   }
   main div {
     font-family: Helvetica, sans-serif;
