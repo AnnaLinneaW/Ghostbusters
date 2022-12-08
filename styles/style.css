@@ -18,20 +18,27 @@
     color: white;
     margin: 0px;
   }
-  header nav li {
-    background: hsl(163deg, 100%, 11%);
+  header nav .navbar-collapse {
+    width: 100vw;
   }
-  header nav li a {
+  header nav .navbar-collapse ul {
+    width: 100%;
+  }
+  header nav .navbar-collapse ul li {
+    width: 100%;
+    text-align: center;
+    background: hsl(161deg, 12%, 56%);
+  }
+  header nav .navbar-collapse ul a {
     color: aliceblue;
   }
-  header nav li a:hover {
+  header nav .navbar-collapse ul a:hover {
     color: aliceblue;
     text-decoration: underline;
   }
-  header nav .container-fluid {
+  header .container-fluid {
     background: hsl(163deg, 100%, 11%);
-    color: white;
-    height: 58px;
+    z-index: 2;
   }
   main .index-div {
     height: auto;
@@ -66,10 +73,10 @@
     font-size: 20px;
     text-decoration: none;
   }
-  @media (width <= 800px) {
-    h1,
-h2 {
-      color: black;
+  @media (width >= 992px) {
+    header nav .container-fluid {
+      flex-direction: column;
+      background: hsl(163deg, 100%, 11%);
     }
   }
   body .opinion {
@@ -127,6 +134,9 @@ h2 {
   }
   main div {
     font-family: Helvetica, sans-serif;
+  }
+  h1 {
+    font-family: ghostbusters;
   }
   .rubrik {
     font-family: ghostbusters;
