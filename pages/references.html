@@ -11,6 +11,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script defer src="/index.js"></script>
 </head>
 
 <body>
@@ -19,28 +20,28 @@
         <nav class="navbar navbar-expand-lg navbar-dark margin-0">
             <div class="container-fluid pb-0">
                 <div>
-                    <a class="navbar-brand" href="../index.html">Gh<span class="pb-4"><img src="/images/ghostbusters-1.svg" height="40px" alt=""></span>stbusters</a>
+                    <a class="navbar-brand testB" href="../index.html">Gh<span id="headerL"><img class="spinn" id="headerLogo" src="/images/ghostbusters-1.svg"  alt="Ghostbusters logo"></span>stbusters</a>
 
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                     aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse mb-0" id="navbarToggler">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <li class="nav-item border">
+                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item border">
                             <a class="nav-link" href="../pages/aboutUs.html">About us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item border">
                             <a class="nav-link" href="../pages/products.html">Products</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/references.html">References</a>
+                        <li class="nav-item border">
+                            <a class="nav-link active" href="../pages/references.html">References</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item border">
                             <a class="nav-link" href="../pages/contact.html">Contact</a>
                         </li>
                     </ul>
@@ -171,7 +172,7 @@
                             </div>
                         </div>
                         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                            <option selected>Grade</option>
+                            <option selected disabled>Grade</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -211,22 +212,27 @@
     </main>
     <!-- FOOTER -->
     <footer>
-        <nav class="navbar bottom">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-8"><a class="navbar-brand" href="../index.html">Home</a></div>
-                    <div class="col-6 col-md-4"><a class="navbar-brand" href="aboutUs.html">About us</a></div>
-                    <div class="col-md-8"><a class="navbar-brand" href="products.html">Products</a></div>
-                    <div class="col-6 col-md-4"><a class="navbar-brand" href="refrences.html">References</a></div>
-                    <div class="col-md-8"><a class="navbar-brand" href="contact.html">Contact</div>
+        <section>
+            <div class="container-fluid p-3">
+                <div class="row g-1">
+                    <div class="col-8 border">
+                        <div class="row">
+                            <div class="col-8 col-md-4"><a href="../index.html">Home</a></div>
+                            <div class="col-8 col-md-4"><a href="/pages/aboutUs.html">About us</a></div>
+                            <div class="col-8 col-md-4"><a href="/pages/products.html">Services</a></div>
+                            <div class="col-8 col-md-4"><a href="/pages/references.html">References</a></div>
+                            <div class="col-8 col-md-4"><a href="/pages/contact.html">Contact</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex col-4 justify-content-end border border-danger">
+                        <div class="border">
+                            <a class="logo" href="../index.html"> GHOSTBUSTERSS
+                                <i class="fa-regular fa-copyright"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <a class="logo" href="index.html">GHOSTBUSTERS <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                        height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
-                        <path
-                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
-                    </svg></a>
             </div>
-        </nav>
+        </section>
     </footer>
 </body>
 

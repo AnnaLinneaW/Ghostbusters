@@ -1,6 +1,27 @@
 header {
-    background: rgb(152, 232, 152);
-
+   
+    #headerLogo {
+        height: 40px;
+        margin: auto 0px;
+        align-self: baseline;
+        transform: translateY(-5px);
+        }
+    
+    #headerL.spinnBurger {
+        transition: 1s ease-in-out;
+        display: inline-block;
+        transform: rotateY(530deg);
+        // transform: rotateY(500deg);
+        opacity: 50%;
+        }
+    #headerL.burgerClosed {
+        transition: 1s ease-in-out;
+        display: inline-block;
+        transform: rotateY(430deg);
+        // transform: rotateY(500deg);
+        opacity: 50%;
+    //     }
+    }
     a.navbar-brand {
         font-family: ghostbusters;
         font-size: 35px;
@@ -17,13 +38,19 @@ header {
                     li {
                         width: 100%;
                         text-align: center;
-                        background: $greenOlive;
+                        background: $greenOliveLight;
                     }   
                     a {
-                        color: aliceblue;
+                        color: rgb(0, 1, 2);
+                        
+                    }               
+                    a.active {
+                        color: rgb(47, 47, 47);
+                        font-weight: 500;
+                        text-decoration: underline;
                     }               
                     a:hover {
-                        color: aliceblue;
+                        color: $greenDark;
                         text-decoration: underline;
                     }
                 }
@@ -34,5 +61,4 @@ header {
             z-index: 2;
             
         }
-}
-
+    }
