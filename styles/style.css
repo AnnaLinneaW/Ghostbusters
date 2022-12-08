@@ -29,18 +29,24 @@
     margin: auto;
   }
   header nav {
-    background: hsl(163deg, 100%, 11%);
+    background: hsl(161deg, 12%, 76%);
     color: white;
     margin: 0px;
+    padding: 0px;
+  }
+  header nav .logoDiv {
+    margin: auto;
   }
   header nav .navbar-collapse {
+    margin: 0px 0px 0px 200px;
     width: 100vw;
   }
   header nav .navbar-collapse ul {
-    width: 100%;
+    background: red;
+    width: 100vw;
   }
   header nav .navbar-collapse ul li {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background: hsl(161deg, 12%, 76%);
   }
@@ -50,15 +56,19 @@
   header nav .navbar-collapse ul a.active {
     color: rgb(47, 47, 47);
     font-weight: 500;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
   }
   header nav .navbar-collapse ul a:hover {
     color: hsl(163deg, 100%, 11%);
-    text-decoration: underline;
+    background: hsl(161deg, 12%, 85%);
+    transition: 0.3s ease-in;
+    border-bottom: 2px solid black;
   }
   header .container-fluid {
     background: hsl(163deg, 100%, 11%);
     z-index: 2;
+    margin: 0px;
+    padding: 0px;
   }
   main.main-index .index-img-top {
     width: 100%;

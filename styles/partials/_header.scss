@@ -28,37 +28,48 @@ header {
         margin: auto;
     }
     nav {
-        background: $greenDark;
+        background: $greenOliveLight;
         color: white;
         margin: 0px;
+        padding: 0px;
+        
+        .logoDiv{
+            margin: auto;
+        }
         .navbar-collapse {
+            margin: 0px 0px 0px 200px;
+            width: 100vw;
+            ul {
+                background: red;
                 width: 100vw;
-                ul {
-                    width: 100%;
-                    li {
-                        width: 100%;
-                        text-align: center;
-                        background: $greenOliveLight;
-                    }   
-                    a {
-                        color: rgb(0, 1, 2);
-                        
-                    }               
-                    a.active {
-                        color: rgb(47, 47, 47);
-                        font-weight: 500;
-                        text-decoration: underline;
-                    }               
-                    a:hover {
-                        color: $greenDark;
-                        text-decoration: underline;
-                    }
+                li {
+                    width: 100vw;
+                    text-align: center;
+                    background: $greenOliveLight;
+                }   
+                a {
+                    color: rgb(0, 1, 2);
+                    
+                }               
+                a.active {
+                    color: rgb(47, 47, 47);
+                    font-weight: 500;
+                    border-bottom: 2px solid black;
+                }               
+                a:hover {
+                    color: $greenDark;
+                    background: $greenLight;
+                    transition: 0.3s ease-in;
+                    border-bottom: 2px solid black;
+                }
                 }
             }
         }
         .container-fluid {
             background: $greenDark;         
             z-index: 2;
+            margin: 0px;
+            padding: 0px;
             
         }
     }
