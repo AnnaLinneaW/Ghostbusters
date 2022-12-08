@@ -5,8 +5,23 @@
 }
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
-  header {
-    background: rgb(152, 232, 152);
+  header #headerLogo {
+    height: 40px;
+    margin: auto 0px;
+    align-self: baseline;
+    transform: translateY(-5px);
+  }
+  header #headerL.spinnBurger {
+    transition: 1s ease-in-out;
+    display: inline-block;
+    transform: rotateY(530deg);
+    opacity: 50%;
+  }
+  header #headerL.burgerClosed {
+    transition: 1s ease-in-out;
+    display: inline-block;
+    transform: rotateY(430deg);
+    opacity: 50%;
   }
   header a.navbar-brand {
     font-family: ghostbusters;
@@ -27,13 +42,18 @@
   header nav .navbar-collapse ul li {
     width: 100%;
     text-align: center;
-    background: hsl(161deg, 12%, 56%);
+    background: hsl(161deg, 12%, 76%);
   }
   header nav .navbar-collapse ul a {
-    color: aliceblue;
+    color: rgb(0, 1, 2);
+  }
+  header nav .navbar-collapse ul a.active {
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+    text-decoration: underline;
   }
   header nav .navbar-collapse ul a:hover {
-    color: aliceblue;
+    color: hsl(163deg, 100%, 11%);
     text-decoration: underline;
   }
   header .container-fluid {
@@ -74,6 +94,10 @@
     text-decoration: none;
   }
   @media (width >= 992px) {
+    header #headerLogo.spinn {
+      transition: 0.7s ease-in-out;
+      transform: rotateY(180deg) translateY(-5px);
+    }
     header nav .container-fluid {
       flex-direction: column;
       background: hsl(163deg, 100%, 11%);
