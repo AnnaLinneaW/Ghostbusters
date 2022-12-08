@@ -5,8 +5,23 @@
 }
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
-  header {
-    background: rgb(152, 232, 152);
+  header #headerLogo {
+    height: 40px;
+    margin: auto 0px;
+    align-self: baseline;
+    transform: translateY(-5px);
+  }
+  header #headerL.spinnBurger {
+    transition: 1s ease-in-out;
+    display: inline-block;
+    transform: rotateY(530deg);
+    opacity: 50%;
+  }
+  header #headerL.burgerClosed {
+    transition: 1s ease-in-out;
+    display: inline-block;
+    transform: rotateY(430deg);
+    opacity: 50%;
   }
   header a.navbar-brand {
     font-family: ghostbusters;
@@ -27,13 +42,18 @@
   header nav .navbar-collapse ul li {
     width: 100%;
     text-align: center;
-    background: hsl(161deg, 12%, 56%);
+    background: hsl(161deg, 12%, 76%);
   }
   header nav .navbar-collapse ul a {
-    color: aliceblue;
+    color: rgb(0, 1, 2);
+  }
+  header nav .navbar-collapse ul a.active {
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+    text-decoration: underline;
   }
   header nav .navbar-collapse ul a:hover {
-    color: aliceblue;
+    color: hsl(163deg, 100%, 11%);
     text-decoration: underline;
   }
   header .container-fluid {
@@ -81,6 +101,9 @@
     font-family: helvetica;
     text-decoration: underline;
   }
+  footer .navbar .container-fluid .copyrighttext {
+    font-size: 10px;
+  }
   footer .navbar .container-fluid .logo {
     font-family: ghostbusters;
     color: black;
@@ -88,6 +111,10 @@
     text-decoration: none;
   }
   @media (width >= 992px) {
+    header #headerLogo.spinn {
+      transition: 0.7s ease-in-out;
+      transform: rotateY(180deg) translateY(-5px);
+    }
     header nav .container-fluid {
       flex-direction: column;
       background: hsl(163deg, 100%, 11%);
@@ -143,43 +170,46 @@
     background-color: hsl(161deg, 12%, 76%);
     border-color: darkgrey;
   }
+<<<<<<< HEAD
   main.services .main-product-picture {
     width: 60%;
     height: auto;
   }
   main div {
+=======
+  main.contact div {
+>>>>>>> 9ccd472627d51301b949b9b6499593a107ce88e5
     font-family: Helvetica, sans-serif;
   }
-  h1 {
+  main.contact h1 {
     font-family: ghostbusters;
   }
-  .rubrik {
+  main.contact .rubrik {
     font-family: ghostbusters;
   }
-  .form {
+  main.contact .form {
     border-style: none;
     background-color: hsl(161deg, 12%, 76%);
-    border-radius: 10px;
     box-shadow: 0 5px 5px hsl(161deg, 12%, 56%);
     border-spacing: 50px;
     width: 70%;
     padding: 10px;
   }
-  .form-control:focus {
+  main.contact .form-control:focus {
     border-color: hsl(161deg, 12%, 56%);
     box-shadow: inset 0 1px 1px hsl(161deg, 12%, 56%);
   }
-  select:focus {
+  main.contact select:focus {
     border-color: hsl(161deg, 12%, 56%);
     box-shadow: inset 0 1px 1px hsl(161deg, 12%, 56%);
   }
-  .input-group span {
+  main.contact .input-group span {
     background-color: hsl(161deg, 12%, 56%);
   }
-  textarea {
+  main.contact textarea {
     height: 100px;
   }
-  .btn-primary {
+  main.contact .btn-primary {
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
   }

@@ -1,5 +1,10 @@
 @media (width >= 992px) {
     header {
+            #headerLogo.spinn {
+                transition: 0.7s ease-in-out;
+                transform: rotateY(180deg) translateY(-5px);;
+
+            }
             nav {
                 .container-fluid {
                     flex-direction: column;
