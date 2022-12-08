@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>Ghostbusters - Contact</title>
 </head>
 
 <body>
@@ -31,7 +34,7 @@
                             <a class="nav-link" href="/pages/aboutUs.html">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/products.html">Products</a>
+                            <a class="nav-link" href="/pages/products.html">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/pages/references.html">References</a>
@@ -47,7 +50,7 @@
     <!-- MAIN  -->
     <main class="contact">
         <div class="row">
-                <h1 class="text-center p-2">Contact</h1>
+                <h1 class="text-center mt-4">Contact</h1>
             <div class="index-div col-sm-6">
                 <h2 class="index-heading text-sm-start">
                     Firehouse, Hook & Ladder Company 8 is a New York City Fire Department (FDNY) fire station, located
@@ -80,7 +83,7 @@
                     </div>
                 </div>
             </div>
-    </main>
+            <!--KONTAKTFORMULÄR-->
     <div class="index-div col-sm-12 justify-content-center p-3">
         <div class="container form">
             <label for="basic-url" class="form-label">Contact us</label>
@@ -89,7 +92,6 @@
                 <input type="text" class="form-control" placeholder="email" aria-label="email"
                     aria-describedby="addon-wrapping">
             </div>
-
             <select class="form-select" aria-label="select contact reason">
                 <option selected>Contact reason</option>
                 <option value="1">Ghosts</option>
@@ -97,7 +99,6 @@
                 <option value="3">Party show up</option>
                 <option value="4">Other</option>
             </select>
-            
             <div class="form-floating pt-2 pb-2">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2">
                 </textarea>
@@ -108,20 +109,22 @@
             </div>
         </div>
     </div>
+</main>
+
     <!-- FOOTER -->
     <footer>
-        <nav class="navbar bottom">
-            <div class="container-fluid">
-                <div class="row text-center">
+        <section class="navbar bottom">
+            <div class="container-fluid p-3">
+                <div class="row text-left">
                     <div class="col-12 col-md-4"><a class="navbar-brand" href="../index.html">Home</a></div>
                     <div class="col-12 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
-                    <div class="col-12 col-md-4"><a class="navbar-brand" href="/pages/products.html">Products</a></div>
+                    <div class="col-12 col-md-4"><a class="navbar-brand" href="/pages/products.html">Services</a></div>
                     <div class="col-12 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a></div>
                     <div class="col-12 col-md-4"><a class="navbar-brand" href="/pages/contact.html">Contact</div>   
-                    </div>
-                <a class="logo" href="../index.html">GHOSTBUSTERS <i class="fa-regular fa-copyright"></i></a>   
+                    </div>    
+                    <div class="d-flex justify-content-end"><a class= "logo" href="../index.html">GHOSTBUSTERS <i class="fa-regular fa-copyright"></i></a></div>    
             </div>
-        </nav>
+        </section>
     </footer>
 </body>
 </body>
