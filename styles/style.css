@@ -125,6 +125,9 @@ h2 {
   main div {
     font-family: Helvetica, sans-serif;
   }
+  h1 {
+    font-family: ghostbusters;
+  }
   .rubrik {
     font-family: ghostbusters;
   }
