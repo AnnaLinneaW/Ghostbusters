@@ -170,15 +170,11 @@
     background-color: hsl(161deg, 12%, 76%);
     border-color: darkgrey;
   }
-<<<<<<< HEAD
   main.services .main-product-picture {
     width: 60%;
     height: auto;
   }
-  main div {
-=======
   main.contact div {
->>>>>>> 9ccd472627d51301b949b9b6499593a107ce88e5
     font-family: Helvetica, sans-serif;
   }
   main.contact h1 {
