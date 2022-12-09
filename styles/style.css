@@ -193,12 +193,11 @@
   main.contact .rubrik {
     font-family: ghostbusters;
   }
-  main.contact .form {
+  main.contact .forms {
     border-style: none;
     background-color: hsl(161deg, 12%, 76%);
     box-shadow: 0 5px 5px hsl(161deg, 12%, 56%);
     border-spacing: 50px;
-    width: 70%;
     padding: 10px;
   }
   main.contact .form-control:focus {
@@ -218,6 +217,7 @@
   main.contact .btn-primary {
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
+    color: black;
   }
   main.main-about-us h1 {
     font-family: ghostbusters;
