@@ -13,6 +13,7 @@ main.services {
     .top-products {
         a {
             color: black;
+            text-decoration: none;
         }
         a:hover {
             color: gray;
@@ -42,7 +43,14 @@ main.services {
         height: auto;
     }
 
-
-
+    .btn-primary {
+        background-color: $greenOlive;
+        border: $greenDark;
+        color:black;
+    }
+    .btn-primary:hover {
+        background-color: $greenDark;
+        color: white;
+    }
 
 }
