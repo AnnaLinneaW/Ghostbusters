@@ -5,6 +5,9 @@
 }
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
+  h1 {
+    font-family: ghostbusters;
+  }
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
@@ -70,6 +73,9 @@
     margin: 0px;
     padding: 0px;
   }
+  main.main-index h1 {
+    font-family: ghostbusters;
+  }
   main.main-index .index-img-top {
     width: 100%;
     height: auto;
@@ -99,6 +105,15 @@
   main.main-index .CTA-link {
     text-decoration: none;
     color: gray;
+  }
+  main.main-index .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
+  }
+  main.main-index .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
   footer .navbar {
     padding: 0%;
@@ -162,6 +177,7 @@
   }
   main.services .top-products a {
     color: black;
+    text-decoration: none;
   }
   main.services .top-products a:hover {
     color: gray;
@@ -183,6 +199,15 @@
   main.services .main-product-picture {
     width: 60%;
     height: auto;
+  }
+  main.services .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
+  }
+  main.services .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
   main.contact div {
     font-family: Helvetica, sans-serif;

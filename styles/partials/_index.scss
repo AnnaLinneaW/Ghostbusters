@@ -1,5 +1,9 @@
 main.main-index {
 
+    h1 {
+        font-family: ghostbusters;
+    }
+
     .index-img-top {
         width: 100%;
         height: auto;
@@ -37,4 +41,13 @@ main.main-index {
         
     }  
   
+    .btn-primary {
+        background-color: $greenOlive;
+        border: $greenDark;
+        color:black;
+    }
+    .btn-primary:hover {
+        background-color: $greenDark;
+        color: white;
+    }
 }
