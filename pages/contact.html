@@ -54,69 +54,71 @@
     <!-- MAIN  -->
     <main class="contact">
         <div class="container">
-        <div class="row">
+            <div class="row">
                 <h1 class="text-center mt-4">Contact</h1>
-            <div class="index-div col-sm-6">
-                <h2 class="index-heading text-sm-start">
-                    Firehouse, Hook & Ladder Company 8 is a New York City Fire Department (FDNY) fire station, located
-                    at 14 North Moore Street at its intersection with Varick Street in the Tribeca neighborhood of
-                    Manhattan, New York City
-                </h2>
-                <img class="index-img img-fluid rounded mx-auto d-block" src="/images/ghostbust.contact.jpeg">
-            </div>
-            <div class="index-div col-sm-6">
-                <img class="index-img img-fluid rounded mx-auto d-block" src="/images/ghostbust.office.jpeg">
-                <div class="row justify-content-center">
-                    <div class="col-9 col-md-8 rubrik ml-2 mt-3">
-                        Who you gonna call?
+                <div class="index-div col-sm-6">
+                    <h2 class="index-heading text-sm-start p-4">
+                        The Ghostbusters HQ is located at the Firehouse, Hook & Ladder Company 8,
+                        at 14 North Moore Street at its intersection with Varick Street in the Tribeca neighborhood of
+                        Manhattan, New York City
+                    </h2>
+                    <img class="index-img img-fluid rounded mx-auto d-block m-3" src="/images/ghostbust.contact.jpeg"
+                        alt="picture of ghostbusters headquarters">
+                </div>
+                <div class="index-div col-sm-6 ">
+                    <img class="index-img img-fluid rounded mx-auto d-block m-3" src="/images/ghostbust.office.jpeg"
+                        alt="picture inside ghostbusters office">
+                    <div class="row justify-content-center">
+                        <div class="col-9 col-md-8 rubrik mx-2 mt-1">
+                            Who you gonna call?
+                        </div>
+                        <div class="row justify-content-center g-1">
+                            <div class="col-8">
+                                <i class="fa-solid fa-phone"></i>
+                                555-2368
+                            </div>
+                            <div class="col-8">
+                                <i class="fa-solid fa-at"></i>
+                                Ghostbusters@gmail.com
+                            </div>
+                            <div class="col-8">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Hook & Ladder Company 8 <br>
+                                14 North Moore Street <br>
+                                Manhattan, New York City
+                            </div>
+                        </div>
                     </div>
-                    <div class="row justify-content-center g-1">
-                        <div class="col-8">
-                            <i class="fa-solid fa-phone"></i>
-                            555-2368
+                </div>
+                <!--KONTAKTFORMULÄR-->
+                <div class="index-div m-1 p-3 mb-4">
+                    <div class="form forms rounded">
+                        <label for="basic-url" class="form-label">Contact us</label>
+                        <div class="input-group flex-nowrap pb-2">
+                            <span class="input-group-text" id="addon-wrapping">@</span>
+                            <input type="email" class="form-control" placeholder="email" id="email" aria-label="email"
+                                aria-describedby="addon-wrapping">
                         </div>
-                        <div class="col-8">
-                            <i class="fa-solid fa-at"></i>
-                            Ghostbusters@gmail.com
+                        <select class="form-select" aria-label="select contact reason">
+                            <option selected disabled>Contact reason</option>
+                            <option value="1">Ghosts</option>
+                            <option value="2">Costs</option>
+                            <option value="3">Party show up</option>
+                            <option value="4">Other</option>
+                        </select>
+                        <div class="form-floating pt-2 pb-2">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="textarea">
+                </textarea>
+                            <label for="textarea">message</label>
                         </div>
-                        <div class="col-8">
-                            <i class="fa-solid fa-location-dot"></i>
-                            New York Public Library <br>
-                            5th Avenue and East 42nd St <br>
-                            Manhattan
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-primary">Send!</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--KONTAKTFORMULÄR-->
-    <div class="index-div col-sm-12 justify-content-center p-3 mb-4">
-        <div class="container form">
-            <label for="basic-url" class="form-label">Contact us</label>
-            <div class="input-group flex-nowrap pb-2">
-                <span class="input-group-text" id="addon-wrapping">@</span>
-                <input type="email" class="form-control" placeholder="email" id="email" aria-label="email"
-                    aria-describedby="addon-wrapping">
-            </div>
-            <select class="form-select" aria-label="select contact reason">
-                <option selected disabled>Contact reason</option>
-                <option value="1">Ghosts</option>
-                <option value="2">Costs</option>
-                <option value="3">Party show up</option>
-                <option value="4">Other</option>
-            </select>
-            <div class="form-floating pt-2 pb-2">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2">
-                </textarea>
-                <label for="floatingTextarea2">message</label>
-            </div>
-            <div class="d-grid gap-2">
-                <button type="button" class="btn btn-primary">Send!</button>
-            </div>
         </div>
-    </div>
-    </div>
-</div>
-</main>
+    </main>
 
     <!-- FOOTER -->
     <footer>
@@ -125,19 +127,26 @@
                 <div class="row text-left" style="width:100%">
                     <div class="col-8 col-md-8">
                         <div class="row">
-                        <div class="col-8 col-md-4"><a class="navbar-brand" href="../index.html">Home</a></div>
-                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a></div>
-                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/products.html">Services</a></div>
-                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a></div>
-                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/contact.html">Contact</a></div>   
+                            <div class="col-8 col-md-4"><a class="navbar-brand" href="../index.html">Home</a></div>
+                            <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a>
+                            </div>
+                            <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/products.html">Services</a>
+                            </div>
+                            <div class="col-8 col-md-4"><a class="navbar-brand"
+                                    href="/pages/references.html">References</a></div>
+                            <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/contact.html">Contact</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-4 col-md-4 p-2 "
+                        style="flex-direction: column;justify-content: flex-end;display: flex;">
+                        <div class="d-flex justify-content-end"><a class="logo" href="../index.html">GHOSTBUSTERS </a>
+                        </div>
+                        <div class="d-flex justify-content-end copyrighttext"><i
+                                class="fa-regular fa-copyright mx-1"></i> 1984-2022 GHOSTBUSTERS </div>
                     </div>
-                    <div class="col-4 col-md-4 p-2 " style="flex-direction: column;justify-content: flex-end;display: flex;">
-                        <div class="d-flex justify-content-end"><a class= "logo" href="../index.html">GHOSTBUSTERS </a></div>    
-                        <div class="d-flex justify-content-end copyrighttext"><i class="fa-regular fa-copyright mx-1"></i> 1984-2022 GHOSTBUSTERS </div>
-                    </div>        
                 </div>
-                
+
             </div>
         </section>
     </footer>
