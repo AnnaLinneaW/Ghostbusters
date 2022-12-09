@@ -26,7 +26,8 @@ main.services {
     }
 
     #link-to-form {
-        color: gray;
+        color: $greenDark;
+        text-decoration: underline;
 
         :hover {
             color: lightgray;

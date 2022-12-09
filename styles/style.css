@@ -187,7 +187,8 @@
     width: 90%;
   }
   main.services #link-to-form {
-    color: gray;
+    color: hsl(163deg, 100%, 11%);
+    text-decoration: underline;
   }
   main.services #link-to-form :hover {
     color: lightgray;
