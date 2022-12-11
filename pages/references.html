@@ -27,20 +27,23 @@
                 </button>
                 <div class="collapse navbar-collapse m-0" id="navbarToggler">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item border">
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
-                        <li class="nav-item border">
+                        <li class="nav-item">
                             <a class="nav-link" href="../pages/aboutUs.html">About us</a>
                         </li>
-                        <li class="nav-item border">
+                        <li class="nav-item">
                             <a class="nav-link" href="../pages/products.html">Services</a>
                         </li>
-                        <li class="nav-item border">
+                        <li class="nav-item">
                             <a class="nav-link active" href="../pages/references.html">References</a>
                         </li>
-                        <li class="nav-item border">
+                        <li class="nav-item">
                             <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ghostRadar.html">Ghost radar</a>
                         </li>
                     </ul>
                 </div>
@@ -48,19 +51,28 @@
         </nav>
     </header>
     <!-- MAIN  -->
-    <main>
+    <main class="refMain">
         <section id="referenceContainer" class="p-1 mt-4 mb-1">
             <div class="container">
                 <h1 class="text-center">References</h1>
+                <h2 class="lead text-center"> Read what our previous customers has to say! </h2>
                 <p class="lead text-center mb-5">
-                    Read what our previous customers has to say!
+                        <a href="#opinion-scroll"> Or go directly to submit a comment
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" 
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                            
+                            </svg>
+                        
+                    </a> 
                 </p>
                 <div class="row g-4">
                     <!-- Card 1 test -->
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card bg-light">
                             <div class="card-body text-center">
-                                <img src="/images/ghostbusters-1.svg" class="mb-1" alt="Bild" height="60px" />
+                                <img src="/images/scrouge.png" class="rounded-circle mb-1" alt="Bild"/>
                                 <h3 class="card-title mb">Ebenezer Scrooge</h3>
                                 <p class="card-text">
                                     Amazing costumer service! These outstanding ladies and gentlemen saved my Chistmas! 100% Ghost removal!
@@ -79,8 +91,8 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card bg-light">
                             <div class="card-body text-center">
-                                <img src="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="rounded-circle mb-1" alt="Bild" width="120px"/>
-                                <h3 class="card-title mb">Nils</h3>
+                                <img src="/images/little-boy.png" class="rounded-circle mb-1" alt="Bild"/>
+                                <h3 class="card-title mb">Nils Andersson</h3>
                                 <p class="card-text">
                                     Mom made me clean my room so I ordered a ghost to live with us. Totally changed our lives forever.
                                 </p>
@@ -98,8 +110,8 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card bg-light">
                             <div class="card-body text-center">
-                                <img src="/images/ghostbusters-1.svg" class="mb-1" alt="Bild" height="60px" />
-                                <h3 class="card-title mb">Ms Mom</h3>
+                                <img src="/images/angry-mom.png" class="rounded-circle mb-1" alt="Bild" />
+                                <h3 class="card-title mb">Lena Andersson</h3>
                                 <p class="card-text">
                                     My son ordered a ghost on my credit card but I cannot return purchase.
                                 </p>
@@ -117,13 +129,10 @@
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card bg-light">
                             <div class="card-body text-center">
-                                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-1" alt="Bild" />
-                                <h3 class="card-title mb">Mr scrouge</h3>
+                                <img src="/images/refguy.png" class="rounded-circle mb-1" alt="Bild" />
+                                <h3 class="card-title mb">Ersnt</h3>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Assumenda accusamus nobis sed cupiditate iusto?
-                                    Quibusdam.
+                                    Really good!
                                 </p>
                                 <div class="ghostGrade">
                                     <span><img src="/images/gradeGhost.svg" alt="Grade"></span>
@@ -141,49 +150,58 @@
         </section>
         <!-- Leave opinion section -->
         <!-- First row with title -->
-        <section class="opinion p-4 mt-4">
-            <div class="row text-center">
-                <label for="subscription">
-                    <div class="text-center">
-                        <h2 class="index-heading">
-                            Leave your opinion!
-                        </h2>
-                    </div>
-                </label>
+        <section class="opinion p-4 my-4">
+            <div class="row text-center mb-3">
+                
+                <div class="text-center">
+                    <h2>
+                        Leave your opinion!
+                    </h2>
+                </div>
+                
             </div>
             <!-- Row 2 -->
-            <div class="row g-4">
+            <div class="row g-4" id="opinion-scroll">
                 <!-- Del 1 formen -->
                 <div class="col-md-6">
                     <form>
                         <div class="row mb-3">
-                            <label for="name" class="col-sm-2 col-form-label">Name</label>
+                            <label for="nameInput" class="col-sm-2 col-form-label" >Name</label>
                             <div class="col-sm-10">
-                                <input type="name" class="form-control" id="nameInput">
+                                <input type="text" class="form-control" id="nameInput" placeholder="Firstname Lastname">
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label for="email" class="col-sm-2 col-form-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email">
+                                <input type="email" class="form-control" id="email" placeholder="your@email.com">
                             </div>
                         </div>
-                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                            <option selected disabled>Grade</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                            <option value="3">Four</option>
-                            <option value="3">Five</option>
-                        </select>
-                        <div class="mb-3">
-                            <label for="textarea" class="form-label">Leave comment</label>
-                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        <div class="row mb-3">
+                            <label for="grade" class="col-sm-2 col-form-label">Grade</label>
+                            <div class="col-sm-10">
+                                <select id="grade" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5" selected>Five</option>
+                                </select>   
+                            </div>
                         </div>
+                      
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label" >Leave comment</label>
+                            <textarea class="form-control" id="textarea" rows="3" placeholder="Write comment here!"></textarea>
+                        </div>
+                    </form>
                 </div>
             <!-- Del 2 av opinion -->
             <div class="col-md-6 p-2 mb-2">
                 <form>
+                    <div class="text-center mb-4">
+                        <button type="submit" class="btn btn-primary">Upload image</button>
+                    </div>
                     <div class="row mb-3 p-2">
                         <div class="col-sm-10 mb-3">
                             <div class="form-check">
@@ -194,8 +212,9 @@
                             </div>
                         </div>
                     </div>
+                  
                     <div class="text-center mb-4">
-                        <button type="submit" class="fredrikSend">Send</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
                     </div>
                     <div class="p-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi minus, praesentium repellat
