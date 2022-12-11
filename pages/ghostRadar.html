@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script defer src="../index.js"></script>
+    <title>Ghostbusters - Radar</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark pb-0">
+            <div class="container-fluid pb-0">
+                <div class="logoDiv">
+                    <a class="navbar-brand" href="../index.html">Gh<span id="headerL"><img class="spinn" id="headerLogo"
+                                src="/images/ghostbusters-1.svg" alt="Ghostbusters logo"></span>stbusters</a>
+                </div>
+                <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse m-0" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/aboutUs.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/products.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/references.html">References</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN  -->
+   <main class="radar">
+        <section class="p-4">
+            <div class="container g-4">
+                <div class="col-12">
+                        <h1 class="text-center">Ghost radar</h1>
+                        <p class="lead text-center">
+                            One of our newest inventions first beta is out!
+                        </p>
+                        <p class="lead text-center mb-3">
+                            Watch and see if there is a ghost in your vicinity.
+                        </p>
+                </div>
+                <div class="container col-12">
+                    <div class="containerAll">
+                        <div class="col-12 ghostContainer">
+                            <ul id="ghostId" class="ghost">
+                                <li> <img id="ghostImage" src="../images/gradeGhost.svg" alt="Ghost." height="60"> </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 mapContainer">
+                            <iframe id="map-container-google-1" style="height: 450px;" class="z-depth-1-half map-container"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.2601757869356!2d18.02113921619342!3d59.345304716783524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d9d263b022d%3A0x82fc0f30ed84f9ed!2sNackademin%20AB!5e0!3m2!1sen!2sse!4v1670059172125!5m2!1sen!2sse"
+                             allowfullscreen loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    
+                    
+                        <div class="btncontainer col-8 d-flex justify-content-between mt-3">
+                            <button class="btn btn-primary" id="btnStart" type="submit">Start radar</button>
+                            <button class="btn btn-primary" id="btnStop" type="submit">Stop radar</button>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </main>
+    <!-- FOOTER -->
+<footer>
+    <div class="navbar bottom">
+        <div class="container-fluid p-3">
+            <div class="row text-left" style="width:100%">
+                <div class="col-8 col-md-8">
+                    <div class="row">
+                        <div class="col-8 col-md-4"><a class="navbar-brand" href="../index.html">Home</a></div>
+                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/aboutUs.html">About us</a>
+                        </div>
+                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/products.html">Services</a>
+                        </div>
+                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/references.html">References</a>
+                        </div>
+                        <div class="col-8 col-md-4"><a class="navbar-brand" href="/pages/contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 p-2 "
+                    style="flex-direction: column;justify-content: flex-end;display: flex;">
+                    <div class="d-flex justify-content-end"><a class="logo" href="../index.html">GHOSTBUSTERS </a>
+                    </div>
+                    <div class="d-flex justify-content-end copyrighttext"><i class="fa-regular fa-copyright mx-1"></i>
+                        1984-2022 GHOSTBUSTERS </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

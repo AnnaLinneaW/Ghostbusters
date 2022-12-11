@@ -6,25 +6,16 @@
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
   h1 {
-    font-family: ghostbusters;
+    font-family: ghostbusters, Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: Helvetica, sans-serif, Arial;
   }
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
     align-self: baseline;
     transform: translateY(-5px);
-  }
-  header #headerL.spinnBurger {
-    transition: 1s ease-in-out;
-    display: inline-block;
-    transform: rotateY(530deg);
-    opacity: 50%;
-  }
-  header #headerL.burgerClosed {
-    transition: 1s ease-in-out;
-    display: inline-block;
-    transform: rotateY(430deg);
-    opacity: 50%;
   }
   header a.navbar-brand {
     font-family: ghostbusters;
@@ -45,7 +36,6 @@
     width: 100vw;
   }
   header nav .navbar-collapse ul {
-    background: red;
     width: 100vw;
   }
   header nav .navbar-collapse ul li {
@@ -55,17 +45,25 @@
   }
   header nav .navbar-collapse ul a {
     color: rgb(0, 1, 2);
+    border: 0px;
+    border-bottom: 2px;
+    border-color: hsl(161deg, 12%, 76%);
+    border-style: solid;
   }
   header nav .navbar-collapse ul a.active {
     color: rgb(47, 47, 47);
     font-weight: 500;
-    border-bottom: 2px solid black;
+    border-bottom: 2px;
+    border-color: black;
+    border-style: solid;
   }
   header nav .navbar-collapse ul a:hover {
     color: hsl(163deg, 100%, 11%);
     background: hsl(161deg, 12%, 85%);
     transition: 0.3s ease-in;
-    border-bottom: 2px solid black;
+    border-bottom: 2px;
+    border-color: black;
+    border-style: solid;
   }
   header .container-fluid {
     background: hsl(163deg, 100%, 11%);
@@ -145,26 +143,50 @@
       background: hsl(163deg, 100%, 11%);
     }
   }
-  body .opinion {
+  .refMain .card-body img {
+    width: 150px;
+    height: 150px;
+  }
+  .refMain section.opinion h2 {
+    font-family: ghostbusters;
+  }
+  .refMain section p a {
+    color: hsl(210deg, 4%, 20%);
+    text-decoration: none;
+  }
+  .refMain section p a svg {
+    fill: gray;
+  }
+  .refMain section p a:hover {
+    color: hsl(210deg, 4%, 28%);
+    text-decoration: none;
+  }
+  .refMain section p a:hover svg {
+    fill: black;
+    height: 20px;
+    width: 20px;
+    box-shadow: 1px;
+    transform: translateX(2px);
+  }
+  .refMain .opinion {
     background: hsl(161deg, 12%, 76%);
   }
-  body form button {
-    background: hsl(161deg, 12%, 56%);
-    border: none;
+  .refMain .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
   }
-  body button:hover {
-    background: hsl(163deg, 100%, 11%);
+  .refMain .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
-  body .bgreen {
-    background: hsl(161deg, 12%, 56%);
-  }
-  body .card-header {
+  .refMain .card-header {
     background: hsl(161deg, 12%, 76%);
   }
-  body .ghostGrade img {
+  .refMain .ghostGrade img {
     width: 18px;
   }
-  body .ghostGrade .badGrade {
+  .refMain .ghostGrade .badGrade {
     opacity: 50%;
   }
   main.services h1 {
@@ -256,6 +278,62 @@
   }
   aside.history-aside {
     background-color: hsl(161deg, 12%, 76%);
+  }
+  .radar .map-container {
+    width: 100%;
+    position: relative;
+    height: 0;
+    box-shadow: 5px 5px 12px grey;
+  }
+  .radar .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .radar .ghost {
+    opacity: 0%;
+    height: 55px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    list-style: none;
+    margin: 0;
+    width: 10px;
+    transition: 1s ease-in-out;
+  }
+  .radar .containerAll {
+    margin: auto;
+    position: relative;
+    height: 530px;
+    width: 600px;
+  }
+  .radar .ghostContainer {
+    position: absolute;
+    height: 480px;
+    width: 590px;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+  }
+  .radar .mapContainer {
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .radar .btncontainer {
+    position: relative;
+    margin: auto;
+  }
+  .radar .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
+  }
+  .radar .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
   * {
     font-size: 18px;

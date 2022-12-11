@@ -1,0 +1,63 @@
+.radar {
+    
+    .map-container {
+            width: 100%;
+            position: relative;
+            height: 0;
+            box-shadow: 5px 5px 12px grey;
+        }
+    
+    .map-container iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        
+    }
+    .ghost {
+        opacity: 0%;
+        height: 55px;
+        position: relative;
+        top: 40%;
+        left: 50%;
+        list-style: none;
+        margin: 0;
+        width: 10px;
+        transition: 1s ease-in-out;
+        }
+    .containerAll {
+        margin: auto;
+        position: relative;
+        height: 530px;
+        width: 600px;
+    }
+    .ghostContainer {
+        position: absolute;
+        height: 480px;
+        width: 590px;
+        z-index: 1;
+        top: 0%;
+        left: 0%;
+    }
+    .mapContainer {
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+    .btncontainer {
+        position: relative;
+        margin: auto;
+        
+    }
+    .btn-primary {
+        background-color: $greenOlive;
+        border: $greenDark;
+        color: black;
+    }
+
+    .btn-primary:hover {
+        background-color: $greenDark;
+        color: white;
+    }
+}
