@@ -19,9 +19,13 @@ p {
     background-color: $greenOlive;
     border: $greenDark;
     color: black;
+    &:hover {
+        background-color: $greenDark;
+        color: white;
+    }
 }
 
-.btn-primary:hover {
-    background-color: $greenDark;
-    color: white;
+.heading-img {
+    width: 100%;
+    height: auto;
 }
