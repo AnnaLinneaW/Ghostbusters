@@ -14,13 +14,14 @@
     @import "partials/_variables.scss";
     @import "partials/_global.scss";
     @import "partials/_header.scss";
-    @import "partials/_main.scss";
+    @import "partials/_index.scss";
     @import "partials/_footer.scss";
     @import "partials/_mediaDesktop.scss";
     @import "partials/_ref.scss";
     @import "partials/_products.scss";
     @import "partials/_contact.scss";
     @import "partials/_aboutUs.scss";
+    @import "partials/radar";
 
     * {
         font-size: 18px;
