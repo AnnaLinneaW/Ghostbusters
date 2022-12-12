@@ -10,14 +10,13 @@ main.contact {
     .rubrik {
         font-family: ghostbusters;
     }
+
     .formular-div{
         display: flex;
         justify-content: center;
-
-
     }
 
-    .forms {
+    .forms{
         border-style: none;
         background-color: $greenOliveLight;
         box-shadow: 0 5px 5px $greenOlive;
@@ -53,5 +52,9 @@ main.contact {
         background-color: $greenOlive;
         border: $greenDark;
         color:black;
+    }
+    .btn-primary:hover {
+        background-color: $greenDark;
+        color: white;
     }
 }
