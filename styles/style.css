@@ -23,6 +23,13 @@
     background-color: hsl(163deg, 100%, 11%);
     color: white;
   }
+  input[type=checkbox] {
+    background-color: rgb(255, 255, 255);
+    border-color: hsl(161deg, 12%, 56%);
+  }
+  input[type=checkbox]:checked {
+    background-color: hsl(163deg, 100%, 11%);
+  }
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
@@ -239,21 +246,6 @@
   }
   main.contact .input-group span {
     background-color: hsl(161deg, 12%, 56%);
-  }
-  main.contact textarea {
-    height: 100px;
-  }
-  main.contact .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  main.contact .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
-  }
-  main.main-about-us h1 {
-    font-family: ghostbusters;
   }
   main.main-about-us img {
     width: 70%;

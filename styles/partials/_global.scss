@@ -25,3 +25,11 @@ p {
     background-color: $greenDark;
     color: white;
 }
+input[type="checkbox"] {
+    background-color: rgb(255, 255, 255);
+    border-color: $greenOlive;
+
+    &:checked {
+        background-color: $greenDark;
+    }
+}
