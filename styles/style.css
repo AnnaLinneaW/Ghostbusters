@@ -6,10 +6,8 @@
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
   h1 {
-    font-family: ghostbusters, Arial, Helvetica, sans-serif;
-  }
-  h2 {
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: ghostbusters, Helvetica, sans-serif, Arial;
+    font-size: 21px;
   }
   header #headerLogo {
     height: 40px;
@@ -244,12 +242,20 @@
   main.contact .rubrik {
     font-family: ghostbusters;
   }
+  main.contact .formular-div {
+    display: flex;
+    justify-content: center;
+  }
   main.contact .forms {
     border-style: none;
     background-color: hsl(161deg, 12%, 76%);
     box-shadow: 0 5px 5px hsl(161deg, 12%, 56%);
     border-spacing: 50px;
+    width: 80%;
     padding: 10px;
+  }
+  main.contact .forms .form-label {
+    font-family: ghostbusters;
   }
   main.contact .form-control:focus {
     border-color: hsl(161deg, 12%, 56%);
@@ -269,6 +275,10 @@
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
     color: black;
+  }
+  main.contact .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
   main.main-about-us h1 {
     font-family: ghostbusters;
