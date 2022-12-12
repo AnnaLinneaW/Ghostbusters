@@ -6,22 +6,6 @@ header {
         align-self: baseline;
         transform: translateY(-5px);
         }
-    
-    #headerL.spinnBurger {
-        transition: 1s ease-in-out;
-        display: inline-block;
-        transform: rotateY(530deg);
-        // transform: rotateY(500deg);
-        opacity: 50%;
-        }
-    #headerL.burgerClosed {
-        transition: 1s ease-in-out;
-        display: inline-block;
-        transform: rotateY(430deg);
-        // transform: rotateY(500deg);
-        opacity: 50%;
-    //     }
-    }
     a.navbar-brand {
         font-family: ghostbusters;
         font-size: 35px;
@@ -40,7 +24,7 @@ header {
             margin: 0px 0px 0px 200px;
             width: 100vw;
             ul {
-                background: red;
+               
                 width: 100vw;
                 li {
                     width: 100vw;
@@ -49,27 +33,35 @@ header {
                 }   
                 a {
                     color: rgb(0, 1, 2);
+                    border: 0px;
+                    border-bottom: 2px;
+                    border-color: $greenOliveLight;
+                    border-style: solid;
                     
                 }               
                 a.active {
                     color: rgb(47, 47, 47);
                     font-weight: 500;
-                    border-bottom: 2px solid black;
+                    border-bottom: 2px;
+                    border-color: black;
+                    border-style: solid;
                 }               
                 a:hover {
                     color: $greenDark;
                     background: $greenLight;
                     transition: 0.3s ease-in;
-                    border-bottom: 2px solid black;
-                }
+                    border-bottom: 2px;
+                    border-color: black;
+                    border-style: solid;
                 }
             }
         }
-        .container-fluid {
-            background: $greenDark;         
-            z-index: 2;
-            margin: 0px;
-            padding: 0px;
-            
-        }
+    }
+    .container-fluid {
+        background: $greenDark;         
+        z-index: 2;
+        margin: 0px;
+        padding: 0px;
+        
+    }
     }

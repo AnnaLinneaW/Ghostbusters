@@ -1,18 +1,45 @@
-body {
+.refMain {
+    .card-body {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    section.opinion h2 {
+        font-family: ghostbusters;
+    }
+    section p a {
+        color: hsl(210, 4%, 20%);
+        text-decoration: none;
+        svg {
+            fill: gray;
+        }
+    }
+    section p a:hover {
+        color: hsl(210, 4%, 28%);
+        text-decoration: none;
+        
+         svg {
+            fill: black;
+            height: 20px;
+            width: 20px;
+            box-shadow: 1px;
+            transform: translateX(2px);
+         }
+    }
     .opinion {
         background: $greenOliveLight;
     }
-    form {
-        button {
-        background: $greenOlive;
-        border: none;
-        }
+    
+    .btn-primary {
+        background-color: $greenOlive;
+        border: $greenDark;
+        color: black;
     }
-    button:hover {
-        background: $greenDark;
-    }
-    .bgreen {
-        background: $greenOlive;
+
+    .btn-primary:hover {
+        background-color: $greenDark;
+        color: white;
     }
     .card-header {
         background: $greenOliveLight;
