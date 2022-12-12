@@ -1,7 +1,7 @@
 main.main-index {
-
-    h1 {
-        font-family: ghostbusters;
+    .index-img-top {
+        width: 100%;
+        height: auto;
     }
 
     .index-div {
@@ -13,28 +13,23 @@ main.main-index {
     .index-img {
         height: auto;
         width: 80%;
+        &:hover {
+            opacity: 80%;
+        }
     }
-    .index-img:hover {
-        opacity: 80%;
-    }
-
-    .index-heading {
-        font-size: 21px;
-        padding: 30px;
-    }
-
     .CTA-text {
         font-size: small;
         :hover {
             color: gray;
         }
     }
-    
     .CTA-link {
         text-decoration: none;
         color: gray;
-        
     }  
   
+<<<<<<< HEAD
    
+=======
+>>>>>>> 71bd86242037731d5fbd20695808b2e88fcee5ca
 }

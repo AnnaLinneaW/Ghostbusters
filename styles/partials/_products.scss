@@ -1,19 +1,9 @@
 main.services {
-
-    h1 {
-        font-family: ghostbusters;
-    }
-
     .card-body {
         background-color: $greenOliveLight;
         border-radius: 4px;
         height: auto;
     }
-
-    .card-title {
-        font-size: 16px;
-    }
-
     .top-products {
         a {
             color: black;
