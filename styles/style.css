@@ -23,12 +23,20 @@
     background-color: hsl(163deg, 100%, 11%);
     color: white;
   }
+  .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
+  }
   input[type=checkbox] {
     background-color: rgb(255, 255, 255);
     border-color: hsl(161deg, 12%, 56%);
   }
   input[type=checkbox]:checked {
     background-color: hsl(163deg, 100%, 11%);
+  }
+  .heading-img {
+    width: 100%;
+    height: auto;
   }
   header #headerLogo {
     height: 40px;
@@ -150,6 +158,9 @@
       font-size: 18px;
     }
   }
+  .img-references {
+    filter: hue-rotate(-13deg) saturate(80%);
+  }
   .refMain .card-body img {
     width: 150px;
     height: 150px;
@@ -217,6 +228,9 @@
   main.services .main-product-picture {
     width: 60%;
     height: auto;
+  }
+  .img-contact {
+    filter: hue-rotate(-13deg) saturate(80%);
   }
   main.contact .rubrik {
     font-family: ghostbusters;

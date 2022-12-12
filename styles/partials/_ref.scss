@@ -1,5 +1,7 @@
+.img-references {
+    filter: hue-rotate(-13deg) saturate(80%);
+}
 .refMain {
-    
     .card-body {
         img {
             width: 150px;
@@ -31,6 +33,7 @@
     .opinion {
         background: $greenOliveLight;
     }
+    
     .card-header {
         background: $greenOliveLight;
     }
