@@ -7,8 +7,11 @@
 // $myWidth: 60px;
 
 h1 {
-    font-family: ghostbusters, Arial, Helvetica, sans-serif;
+    font-family: ghostbusters, $myFont;
 }
 h2 {
-    font-family: Helvetica, sans-serif, Arial;
+    font-family: $myFont;
+}
+p {
+    font-family: $myFont;
 }
