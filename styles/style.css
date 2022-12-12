@@ -23,13 +23,10 @@
     background-color: hsl(163deg, 100%, 11%);
     color: white;
   }
-<<<<<<< HEAD
   .heading-img {
     width: 100%;
     height: auto;
   }
-=======
->>>>>>> 71bd86242037731d5fbd20695808b2e88fcee5ca
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
@@ -89,14 +86,9 @@
     margin: 0px;
     padding: 0px;
   }
-<<<<<<< HEAD
-  main.main-index h1 {
-    font-family: ghostbusters;
-=======
   main.main-index .index-img-top {
     width: 100%;
     height: auto;
->>>>>>> 71bd86242037731d5fbd20695808b2e88fcee5ca
   }
   main.main-index .index-div {
     height: auto;
@@ -150,15 +142,13 @@
       background: hsl(163deg, 100%, 11%);
     }
   }
-<<<<<<< HEAD
-  .img-references {
-    filter: hue-rotate(-13deg) saturate(80%);
-=======
   @media (width <= 359px) {
     header nav .logoDiv a {
       font-size: 18px;
     }
->>>>>>> 71bd86242037731d5fbd20695808b2e88fcee5ca
+  }
+  .img-references {
+    filter: hue-rotate(-13deg) saturate(80%);
   }
   .refMain .card-body img {
     width: 150px;
@@ -228,18 +218,9 @@
     width: 60%;
     height: auto;
   }
-<<<<<<< HEAD
   .img-contact {
     filter: hue-rotate(-13deg) saturate(80%);
   }
-  main.contact div {
-    font-family: Helvetica, sans-serif;
-  }
-  main.contact h1 {
-    font-family: ghostbusters;
-  }
-=======
->>>>>>> 71bd86242037731d5fbd20695808b2e88fcee5ca
   main.contact .rubrik {
     font-family: ghostbusters;
   }
@@ -268,12 +249,6 @@
   }
   main.contact .input-group span {
     background-color: hsl(161deg, 12%, 56%);
-  }
-  main.contact textarea {
-    height: 100px;
-  }
-  main.main-about-us h1 {
-    font-family: ghostbusters;
   }
   main.main-about-us img {
     width: 70%;
