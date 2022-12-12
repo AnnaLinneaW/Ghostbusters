@@ -197,6 +197,9 @@
     border-radius: 4px;
     height: auto;
   }
+  main.services .card-title {
+    font-size: 16px;
+  }
   main.services .top-products a {
     color: black;
     text-decoration: none;
