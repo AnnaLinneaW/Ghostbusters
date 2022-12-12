@@ -15,3 +15,13 @@ h2 {
 p {
     font-family: $myFont;
 }
+.btn-primary {
+    background-color: $greenOlive;
+    border: $greenDark;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: $greenDark;
+    color: white;
+}
