@@ -274,8 +274,8 @@
   main.contact .input-group span {
     background-color: hsl(161deg, 12%, 56%);
   }
-  main.contact textarea {
-    height: 100px;
+  main.contact .input-group textarea {
+    height: 200px;
   }
   main.contact .btn-primary {
     background-color: hsl(161deg, 12%, 56%);
