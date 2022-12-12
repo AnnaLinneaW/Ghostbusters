@@ -233,6 +233,7 @@
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
     color: black;
+    width: 100%;
   }
   main.services .btn-primary:hover {
     background-color: hsl(163deg, 100%, 11%);
