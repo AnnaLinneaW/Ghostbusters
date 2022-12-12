@@ -200,6 +200,9 @@
     border-radius: 4px;
     height: auto;
   }
+  main.services .card-title {
+    font-size: 16px;
+  }
   main.services .top-products a {
     color: black;
     text-decoration: none;
@@ -277,6 +280,10 @@
     background-color: hsl(161deg, 12%, 56%);
     border: hsl(163deg, 100%, 11%);
     color: black;
+  }
+  main.contact .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
   }
   main.main-about-us h1 {
     font-family: ghostbusters;
