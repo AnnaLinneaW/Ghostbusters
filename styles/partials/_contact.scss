@@ -1,3 +1,7 @@
+.img-contact {
+    filter: hue-rotate(-13deg) saturate(80%);
+}
+
 main.contact {
     div {
         font-family: $myFont;
@@ -48,13 +52,5 @@ main.contact {
         height: 100px;
     }
 
-    .btn-primary {
-        background-color: $greenOlive;
-        border: $greenDark;
-        color:black;
-    }
-    .btn-primary:hover {
-        background-color: $greenDark;
-        color: white;
-    }
+
 }

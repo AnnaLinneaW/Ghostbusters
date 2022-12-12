@@ -1,4 +1,9 @@
+.img-references {
+    filter: hue-rotate(-13deg) saturate(80%);
+}
+
 .refMain {
+
     .card-body {
         img {
             width: 150px;
@@ -31,16 +36,6 @@
         background: $greenOliveLight;
     }
     
-    .btn-primary {
-        background-color: $greenOlive;
-        border: $greenDark;
-        color: black;
-    }
-
-    .btn-primary:hover {
-        background-color: $greenDark;
-        color: white;
-    }
     .card-header {
         background: $greenOliveLight;
     }

@@ -4,11 +4,6 @@ main.main-index {
         font-family: ghostbusters;
     }
 
-    .index-img-top {
-        width: 100%;
-        height: auto;
-    }
-
     .index-div {
         height: auto;
         padding: 30px;
@@ -41,13 +36,5 @@ main.main-index {
         
     }  
   
-    .btn-primary {
-        background-color: $greenOlive;
-        border: $greenDark;
-        color:black;
-    }
-    .btn-primary:hover {
-        background-color: $greenDark;
-        color: white;
-    }
+   
 }

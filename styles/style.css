@@ -14,6 +14,19 @@
   p {
     font-family: Helvetica, sans-serif;
   }
+  .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
+  }
+  .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
+  }
+  .heading-img {
+    width: 100%;
+    height: auto;
+  }
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
@@ -77,10 +90,6 @@
   main.main-index h1 {
     font-family: ghostbusters;
   }
-  main.main-index .index-img-top {
-    width: 100%;
-    height: auto;
-  }
   main.main-index .index-div {
     height: auto;
     padding: 30px;
@@ -106,15 +115,6 @@
   main.main-index .CTA-link {
     text-decoration: none;
     color: gray;
-  }
-  main.main-index .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  main.main-index .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
   }
   footer .navbar {
     padding: 0%;
@@ -146,6 +146,9 @@
       background: hsl(163deg, 100%, 11%);
     }
   }
+  .img-references {
+    filter: hue-rotate(-13deg) saturate(80%);
+  }
   .refMain .card-body img {
     width: 150px;
     height: 150px;
@@ -173,15 +176,6 @@
   }
   .refMain .opinion {
     background: hsl(161deg, 12%, 76%);
-  }
-  .refMain .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  .refMain .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
   }
   .refMain .card-header {
     background: hsl(161deg, 12%, 76%);
@@ -229,15 +223,8 @@
     width: 60%;
     height: auto;
   }
-  main.services .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-    width: 100%;
-  }
-  main.services .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
+  .img-contact {
+    filter: hue-rotate(-13deg) saturate(80%);
   }
   main.contact div {
     font-family: Helvetica, sans-serif;
@@ -276,15 +263,6 @@
   }
   main.contact textarea {
     height: 100px;
-  }
-  main.contact .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  main.contact .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
   }
   main.main-about-us h1 {
     font-family: ghostbusters;
@@ -344,15 +322,6 @@
   .radar .btncontainer {
     position: relative;
     margin: auto;
-  }
-  .radar .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  .radar .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
   }
   * {
     font-size: 18px;
