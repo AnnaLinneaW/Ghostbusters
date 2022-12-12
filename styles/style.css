@@ -14,6 +14,15 @@
   p {
     font-family: Helvetica, sans-serif;
   }
+  .btn-primary {
+    background-color: hsl(161deg, 12%, 56%);
+    border: hsl(163deg, 100%, 11%);
+    color: black;
+  }
+  .btn-primary:hover {
+    background-color: hsl(163deg, 100%, 11%);
+    color: white;
+  }
   header #headerLogo {
     height: 40px;
     margin: auto 0px;
@@ -51,7 +60,6 @@
     border: 0px;
     border-bottom: 2px;
     border-color: hsl(161deg, 12%, 76%);
-    border-style: solid;
   }
   header nav .navbar-collapse ul a.active {
     color: rgb(47, 47, 47);
@@ -74,9 +82,6 @@
     margin: 0px;
     padding: 0px;
   }
-  main.main-index h1 {
-    font-family: ghostbusters;
-  }
   main.main-index .index-img-top {
     width: 100%;
     height: auto;
@@ -93,10 +98,6 @@
   main.main-index .index-img:hover {
     opacity: 80%;
   }
-  main.main-index .index-heading {
-    font-size: 21px;
-    padding: 30px;
-  }
   main.main-index .CTA-text {
     font-size: small;
   }
@@ -107,15 +108,6 @@
     text-decoration: none;
     color: gray;
   }
-  main.main-index .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  main.main-index .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
-  }
   footer .navbar {
     padding: 0%;
   }
@@ -124,7 +116,7 @@
   }
   footer .navbar .container-fluid a {
     font-size: 16px;
-    font-family: helvetica;
+    font-family: Helvetica, sans-serif;
     text-decoration: underline;
   }
   footer .navbar .container-fluid .copyrighttext {
@@ -144,6 +136,11 @@
     header nav .container-fluid {
       flex-direction: column;
       background: hsl(163deg, 100%, 11%);
+    }
+  }
+  @media (width <= 359px) {
+    header nav .logoDiv a {
+      font-size: 18px;
     }
   }
   .refMain .card-body img {
@@ -174,15 +171,6 @@
   .refMain .opinion {
     background: hsl(161deg, 12%, 76%);
   }
-  .refMain .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  .refMain .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
-  }
   .refMain .card-header {
     background: hsl(161deg, 12%, 76%);
   }
@@ -192,16 +180,10 @@
   .refMain .ghostGrade .badGrade {
     opacity: 50%;
   }
-  main.services h1 {
-    font-family: ghostbusters;
-  }
   main.services .card-body {
     background-color: hsl(161deg, 12%, 76%);
     border-radius: 4px;
     height: auto;
-  }
-  main.services .card-title {
-    font-size: 16px;
   }
   main.services .top-products a {
     color: black;
@@ -228,22 +210,6 @@
   main.services .main-product-picture {
     width: 60%;
     height: auto;
-  }
-  main.services .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-    width: 100%;
-  }
-  main.services .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
-  }
-  main.contact div {
-    font-family: Helvetica, sans-serif;
-  }
-  main.contact h1 {
-    font-family: ghostbusters;
   }
   main.contact .rubrik {
     font-family: ghostbusters;
@@ -273,21 +239,6 @@
   }
   main.contact .input-group span {
     background-color: hsl(161deg, 12%, 56%);
-  }
-  main.contact textarea {
-    height: 100px;
-  }
-  main.contact .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  main.contact .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
-  }
-  main.main-about-us h1 {
-    font-family: ghostbusters;
   }
   main.main-about-us img {
     width: 70%;
@@ -344,15 +295,6 @@
   .radar .btncontainer {
     position: relative;
     margin: auto;
-  }
-  .radar .btn-primary {
-    background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
-    color: black;
-  }
-  .radar .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
-    color: white;
   }
   * {
     font-size: 18px;

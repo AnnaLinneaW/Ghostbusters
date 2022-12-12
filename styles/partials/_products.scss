@@ -1,19 +1,9 @@
 main.services {
-
-    h1 {
-        font-family: ghostbusters;
-    }
-
     .card-body {
         background-color: $greenOliveLight;
         border-radius: 4px;
         height: auto;
     }
-
-    .card-title {
-        font-size: 16px;
-    }
-
     .top-products {
         a {
             color: black;
@@ -46,17 +36,6 @@ main.services {
     .main-product-picture {
         width: 60%;
         height: auto;
-    }
-
-    .btn-primary {
-        background-color: $greenOlive;
-        border: $greenDark;
-        color:black;
-        width: 100%;
-    }
-    .btn-primary:hover {
-        background-color: $greenDark;
-        color: white;
     }
 
 }

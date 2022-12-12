@@ -1,21 +1,11 @@
 main.contact {
-    div {
-        font-family: $myFont;
-    }
-
-    h1 {
-        font-family: ghostbusters;
-    }
-
     .rubrik {
         font-family: ghostbusters;
     }
-
     .formular-div{
         display: flex;
         justify-content: center;
     }
-
     .forms{
         border-style: none;
         background-color: $greenOliveLight;
@@ -27,34 +17,17 @@ main.contact {
             font-family: ghostbusters;
         }
     }
-
     .form-control:focus {
         border-color: $greenOlive;
         box-shadow: inset 0 1px 1px $greenOlive;
     }
-
     select:focus {
         border-color: $greenOlive;
         box-shadow: inset 0 1px 1px $greenOlive;
     }
-
     .input-group {
         span {
             background-color: $greenOlive;
         }
-    }
-
-    textarea {
-        height: 100px;
-    }
-
-    .btn-primary {
-        background-color: $greenOlive;
-        border: $greenDark;
-        color:black;
-    }
-    .btn-primary:hover {
-        background-color: $greenDark;
-        color: white;
     }
 }
