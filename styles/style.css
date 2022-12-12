@@ -6,8 +6,13 @@
 @layer bootstrap,sass,fredriks,annas,ingelas;
 @layer sass {
   h1 {
-    font-family: ghostbusters, Helvetica, sans-serif, Arial;
-    font-size: 21px;
+    font-family: ghostbusters, Helvetica, sans-serif;
+  }
+  h2 {
+    font-family: Helvetica, sans-serif;
+  }
+  p {
+    font-family: Helvetica, sans-serif;
   }
   header #headerLogo {
     height: 40px;
