@@ -16,15 +16,15 @@
   }
   .btn-primary {
     background-color: hsl(161deg, 12%, 56%);
-    border: hsl(163deg, 100%, 11%);
+    border: hsl(163deg, 100%, 5%);
     color: black;
   }
   .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
+    background-color: hsl(163deg, 100%, 5%);
     color: white;
   }
   .btn-primary:hover {
-    background-color: hsl(163deg, 100%, 11%);
+    background-color: hsl(163deg, 100%, 5%);
     color: white;
   }
   input[type=checkbox] {
@@ -32,7 +32,7 @@
     border-color: hsl(161deg, 12%, 56%);
   }
   input[type=checkbox]:checked {
-    background-color: hsl(163deg, 100%, 11%);
+    background-color: hsl(163deg, 100%, 5%);
   }
   .heading-img {
     width: 100%;
@@ -84,7 +84,7 @@
     border-style: solid;
   }
   header nav .navbar-collapse ul a:hover {
-    color: hsl(163deg, 100%, 11%);
+    color: hsl(163deg, 100%, 5%);
     background: hsl(161deg, 12%, 85%);
     transition: 0.3s ease-in;
     border-bottom: 2px;
@@ -92,7 +92,7 @@
     border-style: solid;
   }
   header .container-fluid {
-    background: hsl(163deg, 100%, 11%);
+    background: hsl(163deg, 100%, 5%);
     z-index: 2;
     margin: 0px;
     padding: 0px;
@@ -150,7 +150,7 @@
     }
     header nav .container-fluid {
       flex-direction: column;
-      background: hsl(163deg, 100%, 11%);
+      background: hsl(163deg, 100%, 5%);
     }
   }
   @media (width <= 359px) {
@@ -215,7 +215,7 @@
     width: 90%;
   }
   main.services #link-to-form {
-    color: hsl(163deg, 100%, 11%);
+    color: hsl(163deg, 100%, 5%);
     text-decoration: underline;
   }
   main.services #link-to-form :hover {
